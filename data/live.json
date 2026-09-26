@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T11:15:49+00:00",
+ "generatedAt": "2026-09-26T11:32:03+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -2697,7 +2697,7 @@
      "dep": null
     }
    ],
-   "delayMin": 45,
+   "delayMin": 51,
    "status": "delayed",
    "code": "633"
   },
@@ -4391,7 +4391,7 @@
      "dep": null
     }
    ],
-   "delayMin": 7,
+   "delayMin": 32,
    "status": "delayed",
    "code": "616"
   },
@@ -6796,7 +6796,7 @@
    "code": "700"
   },
   {
-   "number": "692",
+   "number": "30",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6872,7 +6872,10 @@
      "arr": "15:05",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "692"
   },
   {
    "number": "737",
@@ -10101,7 +10104,7 @@
    ]
   },
   {
-   "number": "586",
+   "number": "132",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10183,7 +10186,10 @@
      "arr": "00:37",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "586"
   },
   {
    "number": "5919",
@@ -12367,5 +12373,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T11:15:49+00:00"
+ "delaysCheckedAt": "2026-09-26T11:32:03+00:00"
 }
