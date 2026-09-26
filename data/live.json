@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T08:18:10+00:00",
+ "generatedAt": "2026-09-26T08:57:53+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -441,7 +441,7 @@
      "dep": null
     }
    ],
-   "delayMin": 11,
+   "delayMin": 10,
    "status": "delayed",
    "code": "4412"
   },
@@ -941,7 +941,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 24,
    "status": "delayed",
    "code": "565"
   },
@@ -1525,8 +1525,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 5,
+   "status": "delayed",
    "code": "6207"
   },
   {
@@ -2597,8 +2597,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 14,
+   "status": "delayed",
    "code": "679"
   },
   {
@@ -2697,8 +2697,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 49,
+   "status": "delayed",
    "code": "633"
   },
   {
@@ -2843,8 +2843,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 6,
+   "status": "delayed",
    "code": "4306"
   },
   {
@@ -3231,8 +3231,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 10,
+   "status": "delayed",
    "code": "730"
   },
   {
@@ -3375,8 +3375,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 20,
+   "status": "delayed",
    "code": "644"
   },
   {
@@ -4576,7 +4576,7 @@
    "code": "5902"
   },
   {
-   "number": "5884",
+   "number": "1017",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -4598,7 +4598,10 @@
      "arr": "12:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5884"
   },
   {
    "number": "656",
@@ -4678,7 +4681,7 @@
    ]
   },
   {
-   "number": "662",
+   "number": "20",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -4754,7 +4757,10 @@
      "arr": "12:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "662"
   },
   {
    "number": "806",
@@ -6426,7 +6432,7 @@
    "code": "793"
   },
   {
-   "number": "6035",
+   "number": "616",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6550,7 +6556,10 @@
      "arr": "19:33",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6035"
   },
   {
    "number": "122",
@@ -6672,7 +6681,7 @@
    ]
   },
   {
-   "number": "700",
+   "number": "27",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6748,7 +6757,10 @@
      "arr": "14:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "700"
   },
   {
    "number": "692",
@@ -12277,5 +12289,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T08:18:10+00:00"
+ "delaysCheckedAt": "2026-09-26T08:57:53+00:00"
 }
