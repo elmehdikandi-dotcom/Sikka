@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T19:18:29+00:00",
+ "generatedAt": "2026-09-26T19:42:08+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -7293,7 +7293,7 @@
      "dep": null
     }
    ],
-   "delayMin": 12,
+   "delayMin": 14,
    "status": "delayed",
    "code": "4414"
   },
@@ -8007,7 +8007,7 @@
      "dep": null
     }
    ],
-   "delayMin": 8,
+   "delayMin": 14,
    "status": "delayed",
    "code": "5893"
   },
@@ -8939,8 +8939,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 14,
+   "status": "delayed",
    "code": "632"
   },
   {
@@ -10097,7 +10097,7 @@
      "dep": null
     }
    ],
-   "delayMin": 66,
+   "delayMin": 65,
    "status": "delayed",
    "code": "597"
   },
@@ -10843,8 +10843,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 12,
+   "status": "delayed",
    "code": "623"
   },
   {
@@ -11011,7 +11011,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 7,
    "status": "delayed",
    "code": "545"
   },
@@ -11177,7 +11177,7 @@
      "dep": null
     }
    ],
-   "delayMin": 20,
+   "delayMin": 30,
    "status": "delayed",
    "code": "611"
   },
@@ -11917,8 +11917,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 18,
+   "status": "delayed",
    "code": "6722"
   },
   {
@@ -12154,7 +12154,7 @@
    "code": "591"
   },
   {
-   "number": "716",
+   "number": "A35",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -12182,7 +12182,10 @@
      "arr": "21:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "716"
   },
   {
    "number": "2061",
@@ -12207,7 +12210,7 @@
    "code": "5929"
   },
   {
-   "number": "5891",
+   "number": "1061",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -12229,7 +12232,10 @@
      "arr": "23:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5891"
   },
   {
    "number": "62",
@@ -12574,5 +12580,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T19:18:29+00:00"
+ "delaysCheckedAt": "2026-09-26T19:42:08+00:00"
 }
