@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T11:32:03+00:00",
+ "generatedAt": "2026-09-26T11:54:58+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -1525,7 +1525,7 @@
      "dep": null
     }
    ],
-   "delayMin": 15,
+   "delayMin": 17,
    "status": "delayed",
    "code": "6207"
   },
@@ -2597,7 +2597,7 @@
      "dep": null
     }
    ],
-   "delayMin": 14,
+   "delayMin": 10,
    "status": "delayed",
    "code": "679"
   },
@@ -2697,7 +2697,7 @@
      "dep": null
     }
    ],
-   "delayMin": 51,
+   "delayMin": 53,
    "status": "delayed",
    "code": "633"
   },
@@ -2843,7 +2843,7 @@
      "dep": null
     }
    ],
-   "delayMin": 17,
+   "delayMin": 39,
    "status": "delayed",
    "code": "4306"
   },
@@ -3657,8 +3657,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 8,
+   "status": "delayed",
    "code": "4415"
   },
   {
@@ -4391,7 +4391,7 @@
      "dep": null
     }
    ],
-   "delayMin": 32,
+   "delayMin": 30,
    "status": "delayed",
    "code": "616"
   },
@@ -4865,8 +4865,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 14,
+   "status": "delayed",
    "code": "758"
   },
   {
@@ -5399,8 +5399,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 26,
+   "status": "delayed",
    "code": "4312"
   },
   {
@@ -6903,7 +6903,7 @@
    ]
   },
   {
-   "number": "4305",
+   "number": "809",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6931,10 +6931,13 @@
      "arr": "14:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "4305"
   },
   {
-   "number": "651",
+   "number": "32",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6998,7 +7001,10 @@
      "arr": "15:16",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "651"
   },
   {
    "number": "29",
@@ -9712,7 +9718,7 @@
    ]
   },
   {
-   "number": "5908",
+   "number": "2045",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -9728,7 +9734,10 @@
      "arr": "17:50",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5908"
   },
   {
    "number": "5889",
@@ -12373,5 +12382,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T11:32:03+00:00"
+ "delaysCheckedAt": "2026-09-26T11:54:58+00:00"
 }
