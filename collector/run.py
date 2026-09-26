@@ -4,9 +4,14 @@ Sikka local runner.
     python run.py --test     one search on oncf-voyages.ma to check it works (5 seconds)
     python run.py            open the map and keep today's ONCF timetable in data/live.json
                              (first fetch takes about 30-40 minutes, then once a night)
+    python run.py --refetch  fetch again now, even if today's timetable is already saved
+    python run.py --every 6  also refetch every 6 hours during the day (minimum 3)
+    python run.py --test-delays   read one live departure board (Casa Voyageurs)
+    python run.py --delays 15     check delays every 15 min instead of 10 (0 = off)
     python run.py --demo     example data with made-up delays (no internet needed)
 
-Politeness: one request every 5 seconds at most, one full fetch per day, and it
+Politeness: one request every 5 seconds at most, one full timetable fetch per day,
+delays: 24 departure boards every 10 minutes (one every 4 s) from 05:00. It
 stops at once if the site refuses (403/429 or a captcha page).
 """
 import argparse
@@ -36,7 +41,8 @@ def say(msg: str) -> None:
     print(f"{time.strftime('%H:%M:%S')}  {msg}", flush=True)
 
 
-def write_feed(doc: dict, path: pathlib.Path = LIVE) -> None:
+def write_feed(doc: dict, path: pathlib.Path | None = None) -> None:
+    path = path or LIVE
     DATA.mkdir(exist_ok=True)
     tmp = path.with_suffix(".tmp")
     tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -64,7 +70,7 @@ def serve(port: int, open_browser: bool) -> None:
         webbrowser.open(f"http://localhost:{port}/")
 
 
-HOST = "www.oncf-voyages.ma"
+HOSTS = ("www.oncf-voyages.ma", "mobile.oncf.ma")
 BUNDLE = HERE / "ca-bundle.pem"
 _truststore_on = False
 
@@ -80,6 +86,27 @@ def _use_system_certificates() -> None:
         pass
 
 
+def _load_certs(data: bytes) -> list:
+    """Read a downloaded certificate in any of the usual formats:
+    single certificate (DER or PEM) or a bundle (PKCS#7 .p7c/.p7b, DER or PEM)."""
+    from cryptography import x509
+    from cryptography.hazmat.primitives.serialization import pkcs7
+    loaders = (
+        lambda d: [x509.load_der_x509_certificate(d)],
+        lambda d: x509.load_pem_x509_certificates(d),
+        lambda d: pkcs7.load_der_pkcs7_certificates(d),
+        lambda d: pkcs7.load_pem_pkcs7_certificates(d),
+    )
+    for load in loaders:
+        try:
+            certs = load(data)
+            if certs:
+                return list(certs)
+        except Exception:
+            continue
+    return []
+
+
 def _complete_chain_bundle() -> str:
     """oncf-voyages.ma doesn't send its intermediate certificate. Browsers fetch it
     automatically from the address written inside the site's certificate (AIA);
@@ -91,33 +118,60 @@ def _complete_chain_bundle() -> str:
     from cryptography.hazmat.primitives.serialization import Encoding
     from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
 
-    cert = x509.load_pem_x509_certificate(ssl.get_server_certificate((HOST, 443)).encode())
-    extra = []
-    for _ in range(3):  # follow up to 3 missing links
+    extra, problems = [], []
+    for host in HOSTS:
+        try:
+            cert = x509.load_pem_x509_certificate(ssl.get_server_certificate((host, 443)).encode())
+        except Exception as e:
+            problems.append(f"{host}: {e}")
+            continue
+        _follow_chain(cert, extra, problems)
+    if not extra:
+        raise RuntimeError("could not fetch the missing certificate. " + " | ".join(problems))
+    BUNDLE.write_text(pathlib.Path(certifi.where()).read_text(encoding="utf-8") + "\n" + "\n".join(extra), encoding="utf-8")
+    return str(BUNDLE)
+
+
+def _follow_chain(cert, extra: list, problems: list) -> None:
+    import urllib.request
+    from cryptography import x509
+    from cryptography.hazmat.primitives.serialization import Encoding
+    from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
+    for _ in range(4):  # follow up to 4 missing links
+        if cert.issuer == cert.subject:
+            break
         try:
             aia = cert.extensions.get_extension_for_oid(ExtensionOID.AUTHORITY_INFORMATION_ACCESS).value
         except x509.ExtensionNotFound:
             break
         urls = [d.access_location.value for d in aia if d.access_method == AuthorityInformationAccessOID.CA_ISSUERS]
-        if not urls:
+        issuer = None
+        for url in urls:
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": UA})
+                data = urllib.request.urlopen(req, timeout=20).read()
+            except Exception as e:
+                problems.append(f"{url}: {e}")
+                continue
+            certs = _load_certs(data)
+            if not certs:
+                problems.append(f"{url}: unreadable ({len(data)} bytes, starts {data[:12]!r})")
+                continue
+            for c in certs:
+                extra.append(c.public_bytes(Encoding.PEM).decode())
+            issuer = next((c for c in certs if c.subject == cert.issuer), certs[0])
             break
-        data = urllib.request.urlopen(urls[0], timeout=20).read()
-        try:
-            cert = x509.load_der_x509_certificate(data)
-        except ValueError:
-            cert = x509.load_pem_x509_certificate(data)
-        extra.append(cert.public_bytes(Encoding.PEM).decode())
-        if cert.issuer == cert.subject:
+        if issuer is None:
             break
-    if not extra:
-        raise RuntimeError("could not find the missing certificate")
-    BUNDLE.write_text(pathlib.Path(certifi.where()).read_text(encoding="utf-8") + "\n" + "\n".join(extra), encoding="utf-8")
-    return str(BUNDLE)
+        cert = issuer
 
 
-def session():
+def session(warm=None):
+    """A web session that passes the certificate check. `warm` is the first call
+    to make (the website's home page by default, or the app service's health check)."""
     import requests
     import oncf_adapter as A
+    warm = warm or A.warm_up
     _use_system_certificates()
     s = requests.Session()
     s.headers.update({"User-Agent": UA, "Accept": "application/json, text/plain, */*",
@@ -125,7 +179,7 @@ def session():
     if BUNDLE.exists():
         s.verify = str(BUNDLE)
     try:
-        A.warm_up(s)
+        warm(s)
         return s
     except requests.exceptions.SSLError:
         pass
@@ -134,7 +188,7 @@ def session():
         import truststore
         truststore.extract_from_ssl()
     s.verify = _complete_chain_bundle()
-    A.warm_up(s)  # raises again if it still fails
+    warm(s)  # raises again if it still fails
     say("Certificate fixed. Verification stays on.")
     return s
 
@@ -186,23 +240,106 @@ def have_timetable(day: dt.date) -> bool:
         return False
 
 
-def live_loop(gap: float) -> None:
+class DelayWatcher:
+    """Every few minutes, read ONCF departure boards and add delays to today's timetable."""
+
+    def __init__(self, every_min: float, gap: float):
+        self.every = every_min * 60
+        self.gap = gap
+        self.sess = None
+        self.off = every_min <= 0
+        self.last = 0.0
+
+    def due(self) -> bool:
+        return not self.off and time.time() - self.last >= self.every and 5 <= dt.datetime.now().hour
+
+    def run(self, day: dt.date) -> bool | None:
+        """True: delays saved. False: failed. None: no timetable for today yet."""
+        import delays as D
+        self.last = time.time()
+        base_path = DATA / f"timetable-{day.isoformat()}.json"
+        try:
+            live = json.loads(LIVE.read_text(encoding="utf-8"))
+        except Exception:
+            live = {}
+        if live.get("serviceDate") == day.isoformat() and live.get("trains"):
+            base = live                      # keeps delays seen earlier today
+        elif base_path.exists():
+            base = json.loads(base_path.read_text(encoding="utf-8"))
+        else:
+            say("No timetable for today yet, so no delays to attach.")
+            return None
+        try:
+            if self.sess is None:
+                self.sess = session(D.warm_up)
+            obs = D.observe(self.sess, gap=self.gap, log=print)
+        except D.Blocked as e:
+            say(f"The ONCF app service refused us ({e}). Delays switched off for this run; times still work.")
+            self.off = True
+            return False
+        except Exception as e:
+            say(f"Delay check failed: {type(e).__name__}: {e}")
+            self.sess = None
+            return False
+        doc, n = D.apply(base, obs)
+        write_feed(doc)
+        late = sum(1 for t in doc["trains"] if (t.get("delayMin") or 0) >= 5)
+        say(f"Delays updated: {n} trains matched, {late} running 5+ min late.")
+        return True
+
+    def sleep_until(self, when: dt.datetime, day: dt.date) -> None:
+        while dt.datetime.now() < when:
+            if self.due():
+                self.run(day)
+            left = (when - dt.datetime.now()).total_seconds()
+            nap = left if self.off else min(left, max(5.0, self.every - (time.time() - self.last)))
+            time.sleep(max(1.0, nap))
+
+
+def live_loop(gap: float, refetch: bool = False, every_h: float = 0, delay_min: float = 10) -> None:
+    force = refetch
+    watcher = DelayWatcher(delay_min, gap=4.0)
+    failures = 0
     while True:
         today = dt.date.today()
-        if have_timetable(today):
+        cached = DATA / f"timetable-{today.isoformat()}.json"
+        if not force and have_timetable(today):
             say("Today's timetable is already saved.")
-        else:
-            cached = DATA / f"timetable-{today.isoformat()}.json"
-            if cached.exists():
-                LIVE.write_bytes(cached.read_bytes())
-                say("Loaded today's saved timetable.")
-            elif not fetch_day(today, gap):
-                say("Will try again in 1 hour.")
-                time.sleep(3600)
-                continue
-        tomorrow = dt.datetime.combine(today + dt.timedelta(days=1), dt.time(0, 10))
-        say(f"Next fetch: {tomorrow:%d %b %H:%M}.")
-        time.sleep(max(60, (tomorrow - dt.datetime.now()).total_seconds()))
+        elif not force and cached.exists():
+            LIVE.write_bytes(cached.read_bytes())
+            say("Loaded today's saved timetable.")
+        elif not fetch_day(today, gap):
+            failures += 1
+            wait = 5 if failures <= 3 else 60
+            say(f"Will try again in {wait} minutes.")
+            watcher.sleep_until(dt.datetime.now() + dt.timedelta(minutes=wait), today)
+            continue
+        failures = 0
+        watcher.last = 0.0  # check delays right away
+        midnight = dt.datetime.combine(today + dt.timedelta(days=1), dt.time(0, 10))
+        nxt = midnight
+        if every_h:
+            nxt = min(midnight, dt.datetime.now() + dt.timedelta(hours=every_h))
+        say(f"Next timetable fetch: {nxt:%d %b %H:%M}." + ("" if watcher.off else f" Delays every {delay_min:g} min (05:00-24:00)."))
+        watcher.sleep_until(nxt, today)
+        force = bool(every_h) and nxt < midnight
+
+
+def run_test_delays() -> None:
+    import delays as D
+    say("Asking the ONCF app service for departures from Casa Voyageurs...")
+    try:
+        s = session(D.warm_up)
+        trains = D.board(s, "200")
+    except D.Blocked as e:
+        sys.exit(f"The ONCF app service refused the request ({e}). Stop here and tell Claude.")
+    except Exception as e:
+        sys.exit(f"It didn't work: {type(e).__name__}: {e}\nSend this message to Claude.")
+    for t in trains:
+        sched, real = (t.get("heureDepart") or "")[:5], (t.get("realDepartureTime") or "")[:5]
+        flag = "" if sched == real else f"  (expected {real})"
+        print(f"  {sched}  train {t.get('numTrain'):>6}  to station {t.get('codeGareFinale')}{flag}")
+    say(f"It works: {len(trains)} departures received." if trains else "Answered, but no departures listed right now.")
 
 
 def demo_loop() -> None:
@@ -230,12 +367,26 @@ def main() -> None:
     ap.add_argument("--port", type=int, default=8000)
     ap.add_argument("--gap", type=float, default=5.0, help="seconds between two requests")
     ap.add_argument("--no-browser", action="store_true")
+    ap.add_argument("--test-delays", action="store_true", help="one departure board from the ONCF app service")
+    ap.add_argument("--delays", type=float, default=10, metavar="MINUTES",
+                    help="check live delays every MINUTES minutes (default 10, minimum 5; 0 = off)")
+    ap.add_argument("--refetch", action="store_true", help="fetch again now, even if today's timetable is saved")
+    ap.add_argument("--every", type=float, default=0, metavar="HOURS",
+                    help="also refetch during the day every HOURS hours (minimum 3)")
     a = ap.parse_args()
     if a.test:
         return run_test()
+    if a.test_delays:
+        return run_test_delays()
+    if 0 < a.delays < 5:
+        say("--delays is at least 5 minutes. Using 5.")
+        a.delays = 5
+    if a.every and a.every < 3:
+        say("--every is at least 3 hours: each fetch is ~350 searches on ONCF and takes ~40 min. Using 3.")
+        a.every = 3
     serve(a.port, not a.no_browser)
     try:
-        demo_loop() if a.demo else live_loop(max(3.0, a.gap))
+        demo_loop() if a.demo else live_loop(max(3.0, a.gap), a.refetch, a.every, a.delays)
     except KeyboardInterrupt:
         print("\nStopped.")
 

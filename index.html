@@ -713,7 +713,7 @@ function openTrain(id) {
       <div class="now">
         <div class="kv wide"><span id="dStatusL">Status</span><b id="dStatus">–</b></div>
         <div class="kv"><span>Est. speed</span><b id="dSpeed">–</b></div>
-        <div class="kv"><span>Delay</span><b style="color:${tr.cancelled || tr.delay >= 5 ? "var(--late)" : "inherit"}">${tr.cancelled ? "Cancelled" : tr.live ? (tr.delay > 0 ? "+" + tr.delay + " min" : "On time") : "Not published"}</b></div>
+        <div class="kv"><span>Delay</span><b style="color:${tr.cancelled || tr.delay >= 5 ? "var(--late)" : "inherit"}">${tr.cancelled ? "Cancelled" : tr.live ? (tr.delay > 0 ? "+" + tr.delay + " min" : "On time") : (feed && feed.delaysAt ? "Not checked yet" : "Not published")}</b></div>
         <div class="kv wide"><span>Scheduled journey</span><b>${fmt(S[0].sd)} – ${fmt(S[S.length-1].sa)}</b></div>
       </div>
       <div><div class="bar"><i id="dBar" style="background:var(--${tr.type})"></i></div>
@@ -880,7 +880,7 @@ function tripsFromFeed(j) {
     const type = inferType(t, stops);
     let legs;
     try { legs = stops.slice(0, -1).map((s, i) => route(s.st, stops[i + 1].st, type === "boraq")); } catch (e) { return; }
-    out.push({ id: out.length, num: String(t.number ?? t.id ?? "?"), type, stops, legs, delay, live: j.realtime !== false,
+    out.push({ id: out.length, num: String(t.number ?? t.id ?? "?"), type, stops, legs, delay, live: j.realtime !== false && t.delayMin != null,
       cancelled: /cancel|annul|supprim/.test(normName(t.status)), start: stops[0].dep - 6, end: stops[L].arr + 2 });
   });
   return { trips: out, unknown };
@@ -892,7 +892,9 @@ function applyFeed(j, how) {
   if (selected?.kind === "train") closeDetail();
   for (const id of [...live.keys()]) drop(id);
   trips = res.trips; recomputeStationTypes();
-  feed = { at: j.generatedAt ? Date.parse(j.generatedAt) : null, count: trips.length, example: !!j.example, source: j.source || "feed", how, timetable: j.realtime === false, day: j.serviceDate || null };
+  feed = { at: j.generatedAt ? Date.parse(j.generatedAt) : null, count: trips.length, example: !!j.example, source: j.source || "feed", how, timetable: j.realtime === false, day: j.serviceDate || null,
+    delaysAt: j.delaysCheckedAt ? Date.parse(j.delaysCheckedAt) : null, checked: trips.filter(t => t.live).length,
+    late: trips.filter(t => t.delay >= 5).length };
   const unk = [...res.unknown];
   $("feedNote").textContent = unk.length ? `Stations in the feed that aren't on the map yet (their stops are skipped): ${unk.slice(0, 8).join(", ")}${unk.length > 8 ? "…" : ""}` : "Every station in the feed matched a station on the map.";
   if (selected?.kind === "station") { lastBoard = 0; updateDetail(true); }
@@ -911,6 +913,11 @@ function updateSrc() {
     const at = feed.at ? new Date(feed.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "";
     if (feed.day && feed.day !== today) { pill.className = "pill stale"; pill.textContent = "Old times"; txt.textContent = `Timetable for ${feed.day}. Start the collector to fetch today's.`; }
     else { pill.className = "pill feed"; pill.textContent = "ONCF times"; txt.textContent = `${feed.count} trains · official times from oncf-voyages.ma${at ? " · fetched " + at : ""}. No live delays.`; }
+  }
+  else if (feed.delaysAt) {
+    const dage = (Date.now() - feed.delaysAt) / 60000;
+    if (dage > 45) { pill.className = "pill stale"; pill.textContent = "Delays old"; txt.textContent = `Delays last checked ${Math.round(dage)} min ago. Check that the collector is still running.`; }
+    else { pill.className = "pill feed"; pill.textContent = "Live delays"; txt.textContent = `${feed.count} trains · ONCF times · delays for ${feed.checked} trains (${feed.late} running 5+ min late) · checked ${dage < 1 ? "just now" : Math.round(dage) + " min ago"}`; }
   }
   else if (age != null && age > 10) { pill.className = "pill stale"; pill.textContent = "Stale"; txt.textContent = `Feed is ${Math.round(age)} min old. Check that the collector is still running.`; }
   else { pill.className = "pill feed"; pill.textContent = "Live feed"; txt.textContent = `${feed.count} trains from ${feed.source}${ageTxt}`; }
@@ -966,7 +973,7 @@ function frame(ts) {
     $("summary").innerHTML = `<b>${total}</b> trains in service · <b>${moving}</b> moving · <b>${Object.keys(ST).length}</b> stations`;
     const quiet = total < 6;
     $("hint").hidden = !quiet;
-    if (quiet) $("hintText").textContent = total ? `It's night in Morocco. Only ${total} night train${total > 1 ? "s run" : " runs"} right now.` : "No trains are running at this hour.";
+    if (quiet) $("hintText").textContent = total ? `Few trains run at this hour: ${total} right now.` : "No trains are running at this hour.";
     updateDetail(false);
     updateSrc();
   }
