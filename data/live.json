@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T20:32:52+00:00",
+ "generatedAt": "2026-09-26T20:55:31+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -5727,7 +5727,7 @@
      "dep": null
     }
    ],
-   "delayMin": 14,
+   "delayMin": 31,
    "status": "delayed",
    "code": "4302"
   },
@@ -8007,7 +8007,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 9,
    "status": "delayed",
    "code": "5893"
   },
@@ -8939,7 +8939,7 @@
      "dep": null
     }
    ],
-   "delayMin": 22,
+   "delayMin": 19,
    "status": "delayed",
    "code": "632"
   },
@@ -11223,7 +11223,7 @@
      "dep": null
     }
    ],
-   "delayMin": 11,
+   "delayMin": 10,
    "status": "delayed",
    "code": "1169"
   },
@@ -11397,8 +11397,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 25,
+   "status": "delayed",
    "code": "794"
   },
   {
@@ -11581,7 +11581,7 @@
      "dep": null
     }
    ],
-   "delayMin": 18,
+   "delayMin": 20,
    "status": "delayed",
    "code": "625"
   },
@@ -11761,8 +11761,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 50,
+   "status": "delayed",
    "code": "594"
   },
   {
@@ -11831,8 +11831,8 @@
      "dep": null
     }
    ],
-   "delayMin": 9,
-   "status": "delayed",
+   "delayMin": 0,
+   "status": "on time",
    "code": "549"
   },
   {
@@ -11883,8 +11883,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 8,
+   "status": "delayed",
    "code": "5922"
   },
   {
@@ -11917,7 +11917,7 @@
      "dep": null
     }
    ],
-   "delayMin": 39,
+   "delayMin": 51,
    "status": "delayed",
    "code": "6722"
   },
@@ -12149,8 +12149,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 35,
+   "status": "delayed",
    "code": "591"
   },
   {
@@ -12428,7 +12428,7 @@
    "code": "587"
   },
   {
-   "number": "725",
+   "number": "A37",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -12456,7 +12456,10 @@
      "arr": "22:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "725"
   },
   {
    "number": "61",
@@ -12586,5 +12589,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T20:32:52+00:00"
+ "delaysCheckedAt": "2026-09-26T20:55:31+00:00"
 }
