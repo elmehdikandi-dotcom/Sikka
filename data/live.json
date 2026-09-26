@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T16:17:48+00:00",
+ "generatedAt": "2026-09-26T16:44:20+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -5821,7 +5821,7 @@
      "dep": null
     }
    ],
-   "delayMin": 44,
+   "delayMin": 41,
    "status": "delayed",
    "code": "4416"
   },
@@ -6587,7 +6587,7 @@
      "dep": null
     }
    ],
-   "delayMin": 8,
+   "delayMin": 14,
    "status": "delayed",
    "code": "6035"
   },
@@ -8425,7 +8425,7 @@
      "dep": null
     }
    ],
-   "delayMin": 35,
+   "delayMin": 60,
    "status": "delayed",
    "code": "712"
   },
@@ -8645,8 +8645,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 6,
+   "status": "delayed",
    "code": "677"
   },
   {
@@ -8715,7 +8715,7 @@
      "dep": null
     }
    ],
-   "delayMin": 8,
+   "delayMin": 38,
    "status": "delayed",
    "code": "684"
   },
@@ -9023,8 +9023,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 2,
+   "status": "delayed",
    "code": "5888"
   },
   {
@@ -9105,7 +9105,7 @@
      "dep": null
     }
    ],
-   "delayMin": 15,
+   "delayMin": 12,
    "status": "delayed",
    "code": "682"
   },
@@ -10406,7 +10406,7 @@
    "code": "5919"
   },
   {
-   "number": "748",
+   "number": "A29",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -10434,7 +10434,10 @@
      "arr": "18:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "748"
   },
   {
    "number": "2049",
@@ -10459,7 +10462,7 @@
    "code": "5909"
   },
   {
-   "number": "5890",
+   "number": "1049",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10481,7 +10484,10 @@
      "arr": "20:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5890"
   },
   {
    "number": "47",
@@ -11797,7 +11803,7 @@
    "code": "549"
   },
   {
-   "number": "5922",
+   "number": "666",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11843,7 +11849,10 @@
      "arr": "21:28",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5922"
   },
   {
    "number": "6722",
@@ -12511,5 +12520,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T16:17:48+00:00"
+ "delaysCheckedAt": "2026-09-26T16:44:20+00:00"
 }
