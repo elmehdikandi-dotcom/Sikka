@@ -1,0 +1,4 @@
+requests>=2.31
+truststore>=0.9
+cryptography>=42
+certifi
