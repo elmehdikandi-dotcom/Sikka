@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T21:16:04+00:00",
+ "generatedAt": "2026-09-26T21:32:51+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -177,7 +177,7 @@
      "dep": null
     }
    ],
-   "delayMin": 15,
+   "delayMin": 17,
    "status": "delayed",
    "code": "579"
   },
@@ -10401,8 +10401,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 14,
+   "status": "delayed",
    "code": "5919"
   },
   {
@@ -11761,7 +11761,7 @@
      "dep": null
     }
    ],
-   "delayMin": 55,
+   "delayMin": 56,
    "status": "delayed",
    "code": "594"
   },
@@ -12149,7 +12149,7 @@
      "dep": null
     }
    ],
-   "delayMin": 45,
+   "delayMin": 53,
    "status": "delayed",
    "code": "591"
   },
@@ -12325,7 +12325,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 9,
    "status": "delayed",
    "code": "726"
   },
@@ -12598,5 +12598,5 @@
    "code": "5925"
   }
  ],
- "delaysCheckedAt": "2026-09-26T21:16:04+00:00"
+ "delaysCheckedAt": "2026-09-26T21:32:51+00:00"
 }
