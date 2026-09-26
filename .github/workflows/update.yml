@@ -1,0 +1,34 @@
+name: Update ONCF timetable
+
+on:
+  schedule:
+    - cron: "5 23 * * *"   # every night, 00:05 in Morocco
+  workflow_dispatch:        # adds a "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency: timetable
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Africa/Casablanca
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: pip install -r collector/requirements-cloud.txt
+      - name: Fetch today's timetable from oncf-voyages.ma
+        run: python collector/fetch_once.py
+      - name: Save it
+        run: |
+          git config user.name "sikka-bot"
+          git config user.email "sikka-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Timetable for $(date +%F)" || echo "Nothing new"
+          git push
