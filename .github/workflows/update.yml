@@ -8,7 +8,9 @@ on:
 permissions:
   contents: write
 
-concurrency: timetable
+concurrency:
+  group: sikka-data
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -30,5 +32,6 @@ jobs:
           git config user.name "sikka-bot"
           git config user.email "sikka-bot@users.noreply.github.com"
           git add data
-          git commit -m "Timetable for $(date +%F)" || echo "Nothing new"
+          git commit -m "Timetable for $(date +%F)" || exit 0
+          git pull --rebase
           git push
