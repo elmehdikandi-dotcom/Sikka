@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T17:55:19+00:00",
+ "generatedAt": "2026-09-26T18:18:41+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -5821,7 +5821,7 @@
      "dep": null
     }
    ],
-   "delayMin": 52,
+   "delayMin": 53,
    "status": "delayed",
    "code": "4416"
   },
@@ -6675,8 +6675,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 15,
+   "status": "delayed",
    "code": "628"
   },
   {
@@ -7293,7 +7293,7 @@
      "dep": null
     }
    ],
-   "delayMin": 8,
+   "delayMin": 12,
    "status": "delayed",
    "code": "4414"
   },
@@ -8007,7 +8007,7 @@
      "dep": null
     }
    ],
-   "delayMin": 6,
+   "delayMin": 10,
    "status": "delayed",
    "code": "5893"
   },
@@ -8259,7 +8259,7 @@
      "dep": null
     }
    ],
-   "delayMin": 61,
+   "delayMin": 65,
    "status": "delayed",
    "code": "776"
   },
@@ -10097,8 +10097,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 50,
+   "status": "delayed",
    "code": "597"
   },
   {
@@ -10401,8 +10401,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 10,
+   "status": "delayed",
    "code": "5919"
   },
   {
@@ -11310,7 +11310,7 @@
    "code": "608"
   },
   {
-   "number": "718",
+   "number": "A32",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11332,7 +11332,10 @@
      "arr": "19:36",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "718"
   },
   {
    "number": "307",
@@ -11399,7 +11402,7 @@
    "code": "794"
   },
   {
-   "number": "588",
+   "number": "56",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11463,10 +11466,13 @@
      "arr": "21:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "588"
   },
   {
-   "number": "4299",
+   "number": "817",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11494,7 +11500,10 @@
      "arr": "20:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "4299"
   },
   {
    "number": "681",
@@ -12328,7 +12337,7 @@
    ]
   },
   {
-   "number": "587",
+   "number": "59",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -12386,7 +12395,10 @@
      "arr": "23:14",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "587"
   },
   {
    "number": "725",
@@ -12420,7 +12432,7 @@
    ]
   },
   {
-   "number": "5916",
+   "number": "61",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -12478,7 +12490,10 @@
      "arr": "23:43",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5916"
   },
   {
    "number": "721",
@@ -12544,5 +12559,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T17:55:19+00:00"
+ "delaysCheckedAt": "2026-09-26T18:18:41+00:00"
 }
