@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T18:18:41+00:00",
+ "generatedAt": "2026-09-26T18:46:31+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -5933,7 +5933,7 @@
      "dep": null
     }
    ],
-   "delayMin": 34,
+   "delayMin": 45,
    "status": "delayed",
    "code": "4316"
   },
@@ -6675,7 +6675,7 @@
      "dep": null
     }
    ],
-   "delayMin": 15,
+   "delayMin": 16,
    "status": "delayed",
    "code": "628"
   },
@@ -7199,7 +7199,7 @@
      "dep": null
     }
    ],
-   "delayMin": 17,
+   "delayMin": 23,
    "status": "delayed",
    "code": "615"
   },
@@ -8007,7 +8007,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 8,
    "status": "delayed",
    "code": "5893"
   },
@@ -8259,7 +8259,7 @@
      "dep": null
     }
    ],
-   "delayMin": 65,
+   "delayMin": 67,
    "status": "delayed",
    "code": "776"
   },
@@ -10097,7 +10097,7 @@
      "dep": null
     }
    ],
-   "delayMin": 50,
+   "delayMin": 66,
    "status": "delayed",
    "code": "597"
   },
@@ -10401,7 +10401,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 5,
    "status": "delayed",
    "code": "5919"
   },
@@ -10757,8 +10757,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 13,
+   "status": "delayed",
    "code": "610"
   },
   {
@@ -10913,8 +10913,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 10,
+   "status": "delayed",
    "code": "596"
   },
   {
@@ -11650,7 +11650,7 @@
    "code": "1166"
   },
   {
-   "number": "720",
+   "number": "A33",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -11678,7 +11678,10 @@
      "arr": "20:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "720"
   },
   {
    "number": "55",
@@ -11941,7 +11944,7 @@
    ]
   },
   {
-   "number": "598",
+   "number": "60",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -12017,7 +12020,10 @@
      "arr": "22:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "598"
   },
   {
    "number": "818",
@@ -12559,5 +12565,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T18:18:41+00:00"
+ "delaysCheckedAt": "2026-09-26T18:46:31+00:00"
 }
