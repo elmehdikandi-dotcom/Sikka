@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T14:19:17+00:00",
+ "generatedAt": "2026-09-26T14:44:01+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -2843,7 +2843,7 @@
      "dep": null
     }
    ],
-   "delayMin": 76,
+   "delayMin": 117,
    "status": "delayed",
    "code": "4306"
   },
@@ -3569,8 +3569,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 7,
+   "status": "delayed",
    "code": "676"
   },
   {
@@ -3657,7 +3657,7 @@
      "dep": null
     }
    ],
-   "delayMin": 23,
+   "delayMin": 24,
    "status": "delayed",
    "code": "4415"
   },
@@ -5089,8 +5089,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 7,
+   "status": "delayed",
    "code": "618"
   },
   {
@@ -6457,7 +6457,7 @@
      "dep": null
     }
    ],
-   "delayMin": 21,
+   "delayMin": 34,
    "status": "delayed",
    "code": "793"
   },
@@ -7075,7 +7075,7 @@
      "dep": null
     }
    ],
-   "delayMin": 6,
+   "delayMin": 12,
    "status": "delayed",
    "code": "702"
   },
@@ -7471,8 +7471,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 2,
+   "status": "delayed",
    "code": "6020"
   },
   {
@@ -7687,8 +7687,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 10,
+   "status": "delayed",
    "code": "683"
   },
   {
@@ -7919,8 +7919,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 15,
+   "status": "delayed",
    "code": "710"
   },
   {
@@ -9162,7 +9162,7 @@
    "code": "752"
   },
   {
-   "number": "675",
+   "number": "42",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -9238,7 +9238,10 @@
      "arr": "18:04",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "675"
   },
   {
    "number": "743",
@@ -10264,7 +10267,7 @@
    "code": "586"
   },
   {
-   "number": "5919",
+   "number": "626",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10370,7 +10373,10 @@
      "arr": "00:27",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5919"
   },
   {
    "number": "748",
@@ -12460,5 +12466,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T14:19:17+00:00"
+ "delaysCheckedAt": "2026-09-26T14:44:01+00:00"
 }
