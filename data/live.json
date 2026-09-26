@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T13:32:12+00:00",
+ "generatedAt": "2026-09-26T13:46:15+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -2597,7 +2597,7 @@
      "dep": null
     }
    ],
-   "delayMin": 16,
+   "delayMin": 17,
    "status": "delayed",
    "code": "679"
   },
@@ -2697,7 +2697,7 @@
      "dep": null
     }
    ],
-   "delayMin": 60,
+   "delayMin": 63,
    "status": "delayed",
    "code": "633"
   },
@@ -3657,7 +3657,7 @@
      "dep": null
     }
    ],
-   "delayMin": 13,
+   "delayMin": 15,
    "status": "delayed",
    "code": "4415"
   },
@@ -4391,7 +4391,7 @@
      "dep": null
     }
    ],
-   "delayMin": 29,
+   "delayMin": 28,
    "status": "delayed",
    "code": "616"
   },
@@ -6289,7 +6289,7 @@
      "dep": null
     }
    ],
-   "delayMin": 9,
+   "delayMin": 12,
    "status": "delayed",
    "code": "701"
   },
@@ -6457,7 +6457,7 @@
      "dep": null
     }
    ],
-   "delayMin": 10,
+   "delayMin": 7,
    "status": "delayed",
    "code": "793"
   },
@@ -10849,7 +10849,7 @@
    ]
   },
   {
-   "number": "5927",
+   "number": "134",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10895,7 +10895,10 @@
      "arr": "20:57",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5927"
   },
   {
    "number": "155",
@@ -12442,5 +12445,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T13:32:12+00:00"
+ "delaysCheckedAt": "2026-09-26T13:46:15+00:00"
 }
