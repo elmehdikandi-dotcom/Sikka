@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T05:55:41+00:00",
+ "generatedAt": "2026-09-26T06:21:01+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -523,8 +523,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 5,
+   "status": "delayed",
    "code": "690"
   },
   {
@@ -941,8 +941,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 7,
+   "status": "delayed",
    "code": "565"
   },
   {
@@ -2936,7 +2936,7 @@
    "code": "4308"
   },
   {
-   "number": "764",
+   "number": "A9",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -2964,7 +2964,10 @@
      "arr": "08:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "764"
   },
   {
    "number": "2009",
@@ -3096,7 +3099,7 @@
    "code": "693"
   },
   {
-   "number": "622",
+   "number": "10",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -3172,7 +3175,10 @@
      "arr": "10:02",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "622"
   },
   {
    "number": "654",
@@ -4144,7 +4150,7 @@
    "code": "583"
   },
   {
-   "number": "670",
+   "number": "13",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -4208,7 +4214,10 @@
      "arr": "11:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "670"
   },
   {
    "number": "673",
@@ -6069,7 +6078,7 @@
    ]
   },
   {
-   "number": "567",
+   "number": "701",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -6091,7 +6100,10 @@
      "arr": "14:12",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "567"
   },
   {
    "number": "728",
@@ -12205,5 +12217,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T05:55:41+00:00"
+ "delaysCheckedAt": "2026-09-26T06:21:01+00:00"
 }
