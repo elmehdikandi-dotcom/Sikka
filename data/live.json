@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T05:32:55+00:00",
+ "generatedAt": "2026-09-26T05:55:41+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -5077,7 +5077,7 @@
    ]
   },
   {
-   "number": "6017",
+   "number": "2021",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -5093,7 +5093,10 @@
      "arr": "11:50",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6017"
   },
   {
    "number": "5885",
@@ -12202,5 +12205,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T05:32:55+00:00"
+ "delaysCheckedAt": "2026-09-26T05:55:41+00:00"
 }
