@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T19:54:54+00:00",
+ "generatedAt": "2026-09-26T20:15:44+00:00",
  "serviceDate": "2026-09-26",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -8007,7 +8007,7 @@
      "dep": null
     }
    ],
-   "delayMin": 11,
+   "delayMin": 5,
    "status": "delayed",
    "code": "5893"
   },
@@ -8939,7 +8939,7 @@
      "dep": null
     }
    ],
-   "delayMin": 21,
+   "delayMin": 16,
    "status": "delayed",
    "code": "632"
   },
@@ -10757,7 +10757,7 @@
      "dep": null
     }
    ],
-   "delayMin": 22,
+   "delayMin": 31,
    "status": "delayed",
    "code": "610"
   },
@@ -11011,8 +11011,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 14,
+   "status": "delayed",
    "code": "545"
   },
   {
@@ -11177,7 +11177,7 @@
      "dep": null
     }
    ],
-   "delayMin": 32,
+   "delayMin": 30,
    "status": "delayed",
    "code": "611"
   },
@@ -11223,7 +11223,7 @@
      "dep": null
     }
    ],
-   "delayMin": 5,
+   "delayMin": 9,
    "status": "delayed",
    "code": "1169"
   },
@@ -11581,8 +11581,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 17,
+   "status": "delayed",
    "code": "625"
   },
   {
@@ -11679,8 +11679,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 8,
+   "status": "delayed",
    "code": "720"
   },
   {
@@ -11917,7 +11917,7 @@
      "dep": null
     }
    ],
-   "delayMin": 17,
+   "delayMin": 28,
    "status": "delayed",
    "code": "6722"
   },
@@ -12302,7 +12302,7 @@
    "code": "593"
   },
   {
-   "number": "726",
+   "number": "A36",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -12324,10 +12324,13 @@
      "arr": "21:36",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "726"
   },
   {
-   "number": "6721",
+   "number": "819",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -12355,7 +12358,10 @@
      "arr": "22:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6721"
   },
   {
    "number": "59",
@@ -12580,5 +12586,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-09-26T19:54:54+00:00"
+ "delaysCheckedAt": "2026-09-26T20:15:44+00:00"
 }
