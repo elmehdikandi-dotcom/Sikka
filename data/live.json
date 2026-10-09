@@ -1,10 +1,35 @@
 {
- "generatedAt": "2026-10-08T23:28:38+00:00",
- "serviceDate": "2026-10-08",
+ "generatedAt": "2026-10-09T23:28:06+00:00",
+ "serviceDate": "2026-10-09",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
+  {
+   "number": "5916",
+   "product": "TNR",
+   "type": "tnr",
+   "stops": [
+    {
+     "oncf": "237",
+     "station": "Sale",
+     "arr": null,
+     "dep": "23:18"
+    },
+    {
+     "oncf": "238",
+     "station": "Sale Tabriquet",
+     "arr": null,
+     "dep": "23:22"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "23:43",
+     "dep": null
+    }
+   ]
+  },
   {
    "number": "799",
    "product": "Al Atlas",
@@ -38,25 +63,6 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "02:11",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5916",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "23:43",
      "dep": null
     }
    ]

@@ -1,35 +1,10 @@
 {
- "generatedAt": "2026-10-01T23:26:15+00:00",
- "serviceDate": "2026-10-01",
+ "generatedAt": "2026-10-09T23:28:06+00:00",
+ "serviceDate": "2026-10-09",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
-  {
-   "number": "549",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "23:15"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "23:57"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "00:39",
-     "dep": null
-    }
-   ]
-  },
   {
    "number": "5916",
    "product": "TNR",
@@ -227,6 +202,25 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "00:37",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "549",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "229",
+     "station": "Rabat Agdal",
+     "arr": null,
+     "dep": "23:57"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "00:39",
      "dep": null
     }
    ]
