@@ -1,46 +1,15 @@
 {
- "generatedAt": "2026-10-06T23:27:21+00:00",
- "serviceDate": "2026-10-06",
+ "generatedAt": "2026-10-13T23:35:39+00:00",
+ "serviceDate": "2026-10-13",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
   {
-   "number": "5916",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "23:18"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "23:43",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "799",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "23:19"
-    },
     {
      "oncf": "237",
      "station": "Sale",
@@ -63,63 +32,6 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "02:11",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "794",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "23:55",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5925",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "23:27"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "23:36",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "797",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "441",
-     "station": "Guercif",
-     "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "02:20",
      "dep": null
     }
    ]
