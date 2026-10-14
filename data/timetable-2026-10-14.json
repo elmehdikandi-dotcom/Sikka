@@ -1,71 +1,15 @@
 {
- "generatedAt": "2026-10-07T23:26:15+00:00",
- "serviceDate": "2026-10-07",
+ "generatedAt": "2026-10-14T23:37:36+00:00",
+ "serviceDate": "2026-10-14",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
   {
-   "number": "549",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "23:15"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "23:57"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "00:39",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5916",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "23:18"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "23:43",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "799",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "23:19"
-    },
     {
      "oncf": "237",
      "station": "Sale",
@@ -88,63 +32,6 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "02:11",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "794",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "23:55",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5925",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "23:27"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "23:36",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "797",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "441",
-     "station": "Guercif",
-     "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "02:20",
      "dep": null
     }
    ]
@@ -227,6 +114,25 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "00:37",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "549",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "229",
+     "station": "Rabat Agdal",
+     "arr": null,
+     "dep": "23:57"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "00:39",
      "dep": null
     }
    ]
