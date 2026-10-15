@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-14T23:37:36+00:00",
- "serviceDate": "2026-10-14",
+ "generatedAt": "2026-10-15T23:34:45+00:00",
+ "serviceDate": "2026-10-15",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
@@ -32,6 +32,25 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "02:11",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "797",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "441",
+     "station": "Guercif",
+     "arr": null,
+     "dep": "23:28"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "02:20",
      "dep": null
     }
    ]
