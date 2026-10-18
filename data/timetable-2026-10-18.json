@@ -1,31 +1,25 @@
 {
- "generatedAt": "2026-10-11T23:28:03+00:00",
- "serviceDate": "2026-10-11",
+ "generatedAt": "2026-10-18T23:32:07+00:00",
+ "serviceDate": "2026-10-18",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
   {
-   "number": "5916",
-   "product": "TNR",
-   "type": "tnr",
+   "number": "6719",
+   "product": "Al Boraq",
+   "type": "boraq",
    "stops": [
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "23:18"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "23:22"
-    },
     {
      "oncf": "250",
      "station": "Kenitra",
-     "arr": "23:43",
+     "arr": null,
+     "dep": "23:28"
+    },
+    {
+     "oncf": "303",
+     "station": "Tanger Ville",
+     "arr": "00:17",
      "dep": null
     }
    ]
@@ -35,12 +29,6 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "23:19"
-    },
     {
      "oncf": "237",
      "station": "Sale",
@@ -63,44 +51,6 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "02:11",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "794",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "23:55",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "6719",
-   "product": "Al Boraq",
-   "type": "boraq",
-   "stops": [
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "303",
-     "station": "Tanger Ville",
-     "arr": "00:17",
      "dep": null
     }
    ]
