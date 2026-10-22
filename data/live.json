@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-21T23:36:23+00:00",
- "serviceDate": "2026-10-21",
+ "generatedAt": "2026-10-22T23:38:32+00:00",
+ "serviceDate": "2026-10-22",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
@@ -10,12 +10,6 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "23:28"
-    },
     {
      "oncf": "238",
      "station": "Sale Tabriquet",
@@ -37,31 +31,6 @@
    ]
   },
   {
-   "number": "579",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "23:30"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "23:46"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "01:07",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "557",
    "product": "Al Atlas",
    "type": "atlas",
@@ -76,6 +45,25 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "03:17",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "579",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": null,
+     "dep": "23:46"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "01:07",
      "dep": null
     }
    ]
