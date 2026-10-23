@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-16T23:35:38+00:00",
- "serviceDate": "2026-10-16",
+ "generatedAt": "2026-10-23T23:37:14+00:00",
+ "serviceDate": "2026-10-23",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
@@ -37,50 +37,6 @@
    ]
   },
   {
-   "number": "579",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "23:30"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "23:46"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "01:07",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "571",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "317",
-     "station": "Asilah",
-     "arr": null,
-     "dep": "23:38"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": "01:52",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "557",
    "product": "Al Atlas",
    "type": "atlas",
@@ -100,45 +56,20 @@
    ]
   },
   {
-   "number": "5927",
+   "number": "579",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "23:49"
-    },
-    {
-     "oncf": "110",
-     "station": "Marrakech",
-     "arr": "01:44",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "6995",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "303",
-     "station": "Tanger Ville",
-     "arr": null,
-     "dep": "23:50"
-    },
     {
      "oncf": "350",
      "station": "Sidi Kacem",
-     "arr": "02:48",
-     "dep": null
+     "arr": null,
+     "dep": "23:46"
     },
     {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "04:35",
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "01:07",
      "dep": null
     }
    ]
@@ -177,25 +108,6 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "00:37",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5920",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "23:52"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "01:33",
      "dep": null
     }
    ]

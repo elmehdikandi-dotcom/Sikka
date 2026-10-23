@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-22T23:38:32+00:00",
- "serviceDate": "2026-10-22",
+ "generatedAt": "2026-10-23T23:37:14+00:00",
+ "serviceDate": "2026-10-23",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
@@ -10,6 +10,12 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
+    {
+     "oncf": "237",
+     "station": "Sale",
+     "arr": null,
+     "dep": "23:28"
+    },
     {
      "oncf": "238",
      "station": "Sale Tabriquet",
