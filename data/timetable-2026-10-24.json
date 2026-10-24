@@ -1,48 +1,10 @@
 {
- "generatedAt": "2026-10-17T23:30:56+00:00",
- "serviceDate": "2026-10-17",
+ "generatedAt": "2026-10-24T23:33:01+00:00",
+ "serviceDate": "2026-10-24",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
-  {
-   "number": "5916",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "23:22"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "23:43",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5925",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "23:27"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "23:36",
-     "dep": null
-    }
-   ]
-  },
   {
    "number": "799",
    "product": "Al Atlas",
@@ -133,31 +95,6 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "03:17",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "6995",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "303",
-     "station": "Tanger Ville",
-     "arr": null,
-     "dep": "23:50"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": "02:48",
-     "dep": null
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "04:35",
      "dep": null
     }
    ]
