@@ -1,10 +1,29 @@
 {
- "generatedAt": "2026-10-24T23:33:01+00:00",
- "serviceDate": "2026-10-24",
+ "generatedAt": "2026-10-25T23:35:02+00:00",
+ "serviceDate": "2026-10-25",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
+  {
+   "number": "6719",
+   "product": "Al Boraq",
+   "type": "boraq",
+   "stops": [
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": null,
+     "dep": "23:28"
+    },
+    {
+     "oncf": "303",
+     "station": "Tanger Ville",
+     "arr": "00:17",
+     "dep": null
+    }
+   ]
+  },
   {
    "number": "799",
    "product": "Al Atlas",
@@ -37,25 +56,6 @@
    ]
   },
   {
-   "number": "797",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "441",
-     "station": "Guercif",
-     "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "02:20",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "579",
    "product": "Al Atlas",
    "type": "atlas",
@@ -81,6 +81,56 @@
    ]
   },
   {
+   "number": "6997",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "23:34"
+    },
+    {
+     "oncf": "200",
+     "station": "Casa Voyageurs",
+     "arr": "23:46",
+     "dep": "23:50"
+    },
+    {
+     "oncf": "213",
+     "station": "Ain Sebaa",
+     "arr": null,
+     "dep": "23:59"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "01:27",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "571",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "317",
+     "station": "Asilah",
+     "arr": null,
+     "dep": "23:38"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": "01:52",
+     "dep": null
+    }
+   ]
+  },
+  {
    "number": "557",
    "product": "Al Atlas",
    "type": "atlas",
@@ -95,6 +145,69 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "03:17",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "6998",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "317",
+     "station": "Asilah",
+     "arr": null,
+     "dep": "23:41"
+    },
+    {
+     "oncf": "303",
+     "station": "Tanger Ville",
+     "arr": "00:25",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "5927",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "139",
+     "station": "Settat",
+     "arr": null,
+     "dep": "23:49"
+    },
+    {
+     "oncf": "110",
+     "station": "Marrakech",
+     "arr": "01:44",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "3128",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "303",
+     "station": "Tanger Ville",
+     "arr": null,
+     "dep": "23:50"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": "02:48",
+     "dep": null
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "04:35",
      "dep": null
     }
    ]
@@ -133,6 +246,25 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "00:37",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "5920",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "264",
+     "station": "Sidi Slimane",
+     "arr": null,
+     "dep": "23:52"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "01:33",
      "dep": null
     }
    ]
