@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T19:51:58+00:00",
+ "generatedAt": "2026-10-31T23:16:29+00:00",
  "serviceDate": "2026-10-31",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -1551,7 +1551,7 @@
    "code": "652"
   },
   {
-   "number": "799",
+   "number": "139",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1633,7 +1633,10 @@
      "arr": "02:11",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 20,
+   "status": "delayed",
+   "code": "799"
   },
   {
    "number": "1168",
@@ -9472,8 +9475,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 7,
+   "status": "delayed",
    "code": "586"
   },
   {
@@ -9584,8 +9587,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 16,
+   "status": "delayed",
    "code": "5919"
   },
   {
@@ -10163,8 +10166,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 23,
+   "status": "delayed",
    "code": "5927"
   },
   {
@@ -10635,8 +10638,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 5,
+   "status": "delayed",
    "code": "794"
   },
   {
@@ -11066,8 +11069,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 22,
+   "status": "delayed",
    "code": "549"
   },
   {
@@ -11796,7 +11799,7 @@
    ]
   },
   {
-   "number": "5925",
+   "number": "A40",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11812,8 +11815,11 @@
      "arr": "23:36",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5925"
   }
  ],
- "delaysCheckedAt": "2026-10-31T19:51:58+00:00"
+ "delaysCheckedAt": "2026-10-31T23:16:29+00:00"
 }
