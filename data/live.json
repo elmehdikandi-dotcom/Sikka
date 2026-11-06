@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T11:58:53+00:00",
+ "generatedAt": "2026-11-06T19:17:11+00:00",
  "serviceDate": "2026-11-06",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -134,7 +134,7 @@
    "code": "797"
   },
   {
-   "number": "579",
+   "number": "MA",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -234,7 +234,10 @@
      "arr": "01:07",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "579"
   },
   {
    "number": "686",
@@ -5098,8 +5101,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 47,
+   "status": "delayed",
    "code": "4316"
   },
   {
@@ -5840,8 +5843,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 58,
+   "status": "delayed",
    "code": "628"
   },
   {
@@ -6452,8 +6455,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 8,
+   "status": "delayed",
    "code": "4414"
   },
   {
@@ -7151,8 +7154,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 19,
+   "status": "delayed",
    "code": "5893"
   },
   {
@@ -7403,8 +7406,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 77,
+   "status": "delayed",
    "code": "776"
   },
   {
@@ -7849,7 +7852,7 @@
    "code": "684"
   },
   {
-   "number": "5918",
+   "number": "622",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7967,7 +7970,10 @@
      "arr": "22:33",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 5,
+   "status": "delayed",
+   "code": "5918"
   },
   {
    "number": "128",
@@ -8065,8 +8071,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 60,
+   "status": "delayed",
    "code": "632"
   },
   {
@@ -8609,7 +8615,7 @@
    ]
   },
   {
-   "number": "6039",
+   "number": "624",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -8727,7 +8733,10 @@
      "arr": "23:33",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6039"
   },
   {
    "number": "130",
@@ -8819,8 +8828,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 7,
+   "status": "delayed",
    "code": "657"
   },
   {
@@ -9366,7 +9375,7 @@
    "code": "586"
   },
   {
-   "number": "5919",
+   "number": "626",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9472,7 +9481,10 @@
      "arr": "00:27",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5919"
   },
   {
    "number": "748",
@@ -9525,7 +9537,7 @@
    ]
   },
   {
-   "number": "5890",
+   "number": "1049",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -9547,10 +9559,13 @@
      "arr": "20:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5890"
   },
   {
-   "number": "607",
+   "number": "47",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -9626,7 +9641,10 @@
      "arr": "19:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "607"
   },
   {
    "number": "754",
@@ -9728,7 +9746,7 @@
    ]
   },
   {
-   "number": "610",
+   "number": "52",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -9804,7 +9822,10 @@
      "arr": "20:16",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "610"
   },
   {
    "number": "4309",
@@ -9885,12 +9906,12 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 11,
+   "status": "delayed",
    "code": "623"
   },
   {
-   "number": "596",
+   "number": "49",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -9954,10 +9975,13 @@
      "arr": "20:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 5,
+   "status": "delayed",
+   "code": "596"
   },
   {
-   "number": "5927",
+   "number": "134",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10033,10 +10057,13 @@
      "arr": "01:44",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 14,
+   "status": "delayed",
+   "code": "5927"
   },
   {
-   "number": "5920",
+   "number": "628",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10130,7 +10157,10 @@
      "arr": "01:33",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 5,
+   "status": "delayed",
+   "code": "5920"
   },
   {
    "number": "155",
@@ -10179,7 +10209,7 @@
    "code": "545"
   },
   {
-   "number": "756",
+   "number": "A31",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -10207,7 +10237,10 @@
      "arr": "19:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 9,
+   "status": "delayed",
+   "code": "756"
   },
   {
    "number": "5928",
@@ -10229,7 +10262,7 @@
    ]
   },
   {
-   "number": "5878",
+   "number": "1053",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10251,10 +10284,13 @@
      "arr": "21:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5878"
   },
   {
-   "number": "611",
+   "number": "51",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10330,7 +10366,10 @@
      "arr": "20:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "611"
   },
   {
    "number": "905",
@@ -10374,12 +10413,12 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 6,
+   "status": "delayed",
    "code": "1169"
   },
   {
-   "number": "608",
+   "number": "54",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10455,10 +10494,13 @@
      "arr": "21:02",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "608"
   },
   {
-   "number": "718",
+   "number": "A32",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10480,7 +10522,10 @@
      "arr": "19:36",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "718"
   },
   {
    "number": "307",
@@ -10547,7 +10592,7 @@
    "code": "794"
   },
   {
-   "number": "588",
+   "number": "56",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10611,10 +10656,13 @@
      "arr": "21:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "588"
   },
   {
-   "number": "4299",
+   "number": "817",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10642,10 +10690,13 @@
      "arr": "20:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "4299"
   },
   {
-   "number": "6989",
+   "number": "681",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -10667,7 +10718,10 @@
      "arr": "21:23",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6989"
   },
   {
    "number": "816",
@@ -10786,7 +10840,7 @@
    "code": "1166"
   },
   {
-   "number": "720",
+   "number": "A33",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -10814,10 +10868,13 @@
      "arr": "20:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "720"
   },
   {
-   "number": "6019",
+   "number": "2057",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10833,10 +10890,13 @@
      "arr": "20:50",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6019"
   },
   {
-   "number": "6018",
+   "number": "1057",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10858,10 +10918,13 @@
      "arr": "22:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6018"
   },
   {
-   "number": "594",
+   "number": "55",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10937,10 +11000,13 @@
      "arr": "21:54",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "594"
   },
   {
-   "number": "549",
+   "number": "MT",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -11004,10 +11070,13 @@
      "arr": "00:39",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "549"
   },
   {
-   "number": "5922",
+   "number": "666",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11053,10 +11122,13 @@
      "arr": "21:28",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5922"
   },
   {
-   "number": "6722",
+   "number": "168",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11084,7 +11156,10 @@
      "arr": "21:25",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "6722"
   },
   {
    "number": "714",
@@ -11112,7 +11187,7 @@
    ]
   },
   {
-   "number": "598",
+   "number": "60",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11188,7 +11263,10 @@
      "arr": "22:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "598"
   },
   {
    "number": "818",
@@ -11243,7 +11321,7 @@
    "code": "5923"
   },
   {
-   "number": "591",
+   "number": "57",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11307,10 +11385,13 @@
      "arr": "22:17",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "591"
   },
   {
-   "number": "585",
+   "number": "138",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -11350,7 +11431,10 @@
      "arr": "22:57",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "585"
   },
   {
    "number": "716",
@@ -11384,7 +11468,7 @@
    ]
   },
   {
-   "number": "5929",
+   "number": "2061",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -11400,7 +11484,10 @@
      "arr": "21:50",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5929"
   },
   {
    "number": "5891",
@@ -11428,7 +11515,7 @@
    ]
   },
   {
-   "number": "593",
+   "number": "62",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11486,7 +11573,10 @@
      "arr": "23:01",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "593"
   },
   {
    "number": "726",
@@ -11545,7 +11635,7 @@
    ]
   },
   {
-   "number": "587",
+   "number": "59",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11603,7 +11693,10 @@
      "arr": "23:14",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "587"
   },
   {
    "number": "725",
@@ -11637,7 +11730,7 @@
    ]
   },
   {
-   "number": "5916",
+   "number": "61",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11695,7 +11788,10 @@
      "arr": "23:43",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5916"
   },
   {
    "number": "721",
@@ -11761,5 +11857,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-11-06T11:58:53+00:00"
+ "delaysCheckedAt": "2026-11-06T19:17:11+00:00"
 }
