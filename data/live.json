@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T19:17:11+00:00",
+ "generatedAt": "2026-11-06T23:48:31+00:00",
  "serviceDate": "2026-11-06",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -1530,7 +1530,7 @@
    "code": "652"
   },
   {
-   "number": "799",
+   "number": "139",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1612,7 +1612,10 @@
      "arr": "02:11",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "799"
   },
   {
    "number": "1168",
@@ -8828,7 +8831,7 @@
      "dep": null
     }
    ],
-   "delayMin": 7,
+   "delayMin": 58,
    "status": "delayed",
    "code": "657"
   },
@@ -9370,8 +9373,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 16,
+   "status": "delayed",
    "code": "586"
   },
   {
@@ -10058,7 +10061,7 @@
      "dep": null
     }
    ],
-   "delayMin": 14,
+   "delayMin": 7,
    "status": "delayed",
    "code": "5927"
   },
@@ -11857,5 +11860,5 @@
    ]
   }
  ],
- "delaysCheckedAt": "2026-11-06T19:17:11+00:00"
+ "delaysCheckedAt": "2026-11-06T23:48:31+00:00"
 }
