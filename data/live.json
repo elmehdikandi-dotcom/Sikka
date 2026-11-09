@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T12:43:40+00:00",
+ "generatedAt": "2026-11-09T22:46:18+00:00",
  "serviceDate": "2026-11-09",
  "source": "oncf-voyages.ma + ONCF app delays",
  "realtime": true,
@@ -6754,8 +6754,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 43,
+   "status": "delayed",
    "code": "657"
   },
   {
@@ -7074,8 +7074,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 6,
+   "status": "delayed",
    "code": "6039"
   },
   {
@@ -7469,7 +7469,7 @@
    ]
   },
   {
-   "number": "5919",
+   "number": "626",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7545,7 +7545,10 @@
      "arr": "00:27",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5919"
   },
   {
    "number": "755",
@@ -7893,8 +7896,8 @@
      "dep": null
     }
    ],
-   "delayMin": 0,
-   "status": "on time",
+   "delayMin": 74,
+   "status": "delayed",
    "code": "794"
   },
   {
@@ -8599,7 +8602,7 @@
    ]
   },
   {
-   "number": "5924",
+   "number": "A39",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -8615,8 +8618,11 @@
      "arr": "23:40",
      "dep": null
     }
-   ]
+   ],
+   "delayMin": 0,
+   "status": "on time",
+   "code": "5924"
   }
  ],
- "delaysCheckedAt": "2026-11-09T12:43:40+00:00"
+ "delaysCheckedAt": "2026-11-09T22:46:18+00:00"
 }
