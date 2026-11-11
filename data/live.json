@@ -1,15 +1,33 @@
 {
- "generatedAt": "2026-11-10T20:24:34+00:00",
- "serviceDate": "2026-11-10",
- "source": "oncf-voyages.ma + ONCF app delays",
- "realtime": true,
+ "generatedAt": "2026-11-11T03:27:21+00:00",
+ "serviceDate": "2026-11-11",
+ "source": "oncf-voyages.ma",
+ "realtime": false,
  "example": false,
  "trains": [
   {
-   "number": "507",
+   "number": "797",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": null,
+     "dep": "03:20"
+    },
+    {
+     "oncf": "363",
+     "station": "Meknes",
+     "arr": null,
+     "dep": "03:55"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": null,
+     "dep": "04:44"
+    },
     {
      "oncf": "264",
      "station": "Sidi Slimane",
@@ -50,24 +68,27 @@
      "oncf": "441",
      "station": "Guercif",
      "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "02:20",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "797"
+   ]
   },
   {
-   "number": "AM",
+   "number": "557",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": null,
+     "dep": "03:47"
+    },
+    {
+     "oncf": "363",
+     "station": "Meknes",
+     "arr": null,
+     "dep": "04:21"
+    },
     {
      "oncf": "350",
      "station": "Sidi Kacem",
@@ -102,24 +123,251 @@
      "oncf": "451",
      "station": "Taourirt",
      "arr": null,
-     "dep": "23:39"
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "579",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "431",
+     "station": "Taza",
+     "arr": null,
+     "dep": "03:59"
+    },
+    {
+     "oncf": "441",
+     "station": "Guercif",
+     "arr": null,
+     "dep": "04:53"
+    },
+    {
+     "oncf": "451",
+     "station": "Taourirt",
+     "arr": null,
+     "dep": "05:34"
+    },
+    {
+     "oncf": "459",
+     "station": "El Aioun",
+     "arr": null,
+     "dep": "06:25"
+    },
+    {
+     "oncf": "490",
+     "station": "Oujda",
+     "arr": "07:11",
+     "dep": null
+    },
+    {
+     "oncf": "200",
+     "station": "Casa Voyageurs",
+     "arr": null,
+     "dep": "21:07"
+    },
+    {
+     "oncf": "213",
+     "station": "Ain Sebaa",
+     "arr": null,
+     "dep": "21:16"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "21:28"
+    },
+    {
+     "oncf": "229",
+     "station": "Rabat Agdal",
+     "arr": null,
+     "dep": "22:08"
+    },
+    {
+     "oncf": "231",
+     "station": "Rabat Ville",
+     "arr": null,
+     "dep": "22:14"
+    },
+    {
+     "oncf": "237",
+     "station": "Sale",
+     "arr": null,
+     "dep": "22:23"
+    },
+    {
+     "oncf": "238",
+     "station": "Sale Tabriquet",
+     "arr": null,
+     "dep": "22:27"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "22:48",
+     "dep": "22:51"
+    },
+    {
+     "oncf": "264",
+     "station": "Sidi Slimane",
+     "arr": null,
+     "dep": "23:30"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": null,
+     "dep": "23:46"
     },
     {
      "oncf": "380",
      "station": "Fes",
-     "arr": "03:17",
+     "arr": "01:07",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "557"
+   ]
+  },
+  {
+   "number": "686",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "110",
+     "station": "Marrakech",
+     "arr": null,
+     "dep": "04:30"
+    },
+    {
+     "oncf": "120",
+     "station": "Benguerir",
+     "arr": null,
+     "dep": "05:20"
+    },
+    {
+     "oncf": "139",
+     "station": "Settat",
+     "arr": null,
+     "dep": "06:23"
+    },
+    {
+     "oncf": "183",
+     "station": "Berrechid",
+     "arr": null,
+     "dep": "06:44"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "07:00"
+    },
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": "07:13",
+     "dep": "07:14"
+    },
+    {
+     "oncf": "200",
+     "station": "Casa Voyageurs",
+     "arr": "07:24",
+     "dep": "07:28"
+    },
+    {
+     "oncf": "213",
+     "station": "Ain Sebaa",
+     "arr": null,
+     "dep": "07:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "07:47"
+    },
+    {
+     "oncf": "229",
+     "station": "Rabat Agdal",
+     "arr": null,
+     "dep": "08:26"
+    },
+    {
+     "oncf": "231",
+     "station": "Rabat Ville",
+     "arr": null,
+     "dep": "08:33"
+    },
+    {
+     "oncf": "237",
+     "station": "Sale",
+     "arr": null,
+     "dep": "08:41"
+    },
+    {
+     "oncf": "238",
+     "station": "Sale Tabriquet",
+     "arr": null,
+     "dep": "08:45"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "09:05",
+     "dep": "09:08"
+    },
+    {
+     "oncf": "264",
+     "station": "Sidi Slimane",
+     "arr": null,
+     "dep": "09:47"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": "10:03",
+     "dep": "10:05"
+    },
+    {
+     "oncf": "362",
+     "station": "Meknes Al Amir",
+     "arr": null,
+     "dep": "10:44"
+    },
+    {
+     "oncf": "363",
+     "station": "Meknes",
+     "arr": null,
+     "dep": "10:53"
+    },
+    {
+     "oncf": "367",
+     "station": "Ain Taoujdate",
+     "arr": null,
+     "dep": "11:16"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "11:33",
+     "dep": null
+    }
+   ]
   },
   {
    "number": "4412",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": null,
+     "dep": "04:35"
+    },
     {
      "oncf": "363",
      "station": "Meknes",
@@ -279,30 +527,6 @@
      "dep": "06:20"
     },
     {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "07:23"
-    },
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "07:44"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "08:00"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": "08:13",
-     "dep": "08:14"
-    },
-    {
      "oncf": "200",
      "station": "Casa Voyageurs",
      "arr": "08:24",
@@ -387,94 +611,6 @@
      "dep": null
     }
    ]
-  },
-  {
-   "number": "MA",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "05:34"
-    },
-    {
-     "oncf": "459",
-     "station": "El Aioun",
-     "arr": null,
-     "dep": "06:25"
-    },
-    {
-     "oncf": "490",
-     "station": "Oujda",
-     "arr": "07:11",
-     "dep": null
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "21:07"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "21:16"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "22:08"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "22:14"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "22:23"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "22:27"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "22:48",
-     "dep": "22:51"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "23:30"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "23:46"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "01:07",
-     "dep": null
-    }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "579"
   },
   {
    "number": "4411",
@@ -772,7 +908,7 @@
    ]
   },
   {
-   "number": "101",
+   "number": "5926",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -896,10 +1032,7 @@
      "arr": "16:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5926"
+   ]
   },
   {
    "number": "1",
@@ -1159,7 +1292,7 @@
    ]
   },
   {
-   "number": "604",
+   "number": "6207",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1283,13 +1416,10 @@
      "arr": "13:33",
      "dep": null
     }
-   ],
-   "delayMin": 12,
-   "status": "delayed",
-   "code": "6207"
+   ]
   },
   {
-   "number": "110",
+   "number": "4413",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1371,10 +1501,7 @@
      "arr": "13:37",
      "dep": null
     }
-   ],
-   "delayMin": 11,
-   "status": "delayed",
-   "code": "4413"
+   ]
   },
   {
    "number": "573",
@@ -1420,7 +1547,7 @@
    ]
   },
   {
-   "number": "103",
+   "number": "652",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1556,13 +1683,10 @@
      "arr": "17:07",
      "dep": null
     }
-   ],
-   "delayMin": 12,
-   "status": "delayed",
-   "code": "652"
+   ]
   },
   {
-   "number": "139",
+   "number": "799",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -1603,6 +1727,12 @@
      "dep": "22:19"
     },
     {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "22:32"
+    },
+    {
      "oncf": "229",
      "station": "Rabat Agdal",
      "arr": null,
@@ -1638,10 +1768,7 @@
      "arr": "02:11",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "799"
+   ]
   },
   {
    "number": "1168",
@@ -1706,115 +1833,6 @@
      "oncf": "200",
      "station": "Casa Voyageurs",
      "arr": "09:50",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "686",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "06:44"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "07:00"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "07:14"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "07:24",
-     "dep": "07:28"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "07:37"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "07:47"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "08:26"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "08:33"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "08:41"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "08:45"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "09:05",
-     "dep": "09:08"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "09:47"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": "10:03",
-     "dep": "10:05"
-    },
-    {
-     "oncf": "362",
-     "station": "Meknes Al Amir",
-     "arr": null,
-     "dep": "10:44"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "10:53"
-    },
-    {
-     "oncf": "367",
-     "station": "Ain Taoujdate",
-     "arr": null,
-     "dep": "11:16"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "11:33",
      "dep": null
     }
    ]
@@ -2304,7 +2322,7 @@
    ]
   },
   {
-   "number": "606",
+   "number": "679",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -2422,13 +2440,10 @@
      "arr": "14:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "679"
+   ]
   },
   {
-   "number": "112",
+   "number": "633",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -2522,10 +2537,7 @@
      "arr": "14:37",
      "dep": null
     }
-   ],
-   "delayMin": 25,
-   "status": "delayed",
-   "code": "633"
+   ]
   },
   {
    "number": "4313",
@@ -2559,7 +2571,7 @@
    ]
   },
   {
-   "number": "301",
+   "number": "4306",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -2665,13 +2677,10 @@
      "arr": "18:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "4306"
+   ]
   },
   {
-   "number": "202",
+   "number": "4308",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -2753,10 +2762,7 @@
      "arr": "18:41",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "4308"
+   ]
   },
   {
    "number": "764",
@@ -3243,7 +3249,7 @@
    ]
   },
   {
-   "number": "608",
+   "number": "676",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -3361,13 +3367,10 @@
      "arr": "15:33",
      "dep": null
     }
-   ],
-   "delayMin": 13,
-   "status": "delayed",
-   "code": "676"
+   ]
   },
   {
-   "number": "114",
+   "number": "4415",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -3449,10 +3452,7 @@
      "arr": "15:37",
      "dep": null
     }
-   ],
-   "delayMin": 6,
-   "status": "delayed",
-   "code": "4415"
+   ]
   },
   {
    "number": "672",
@@ -3879,7 +3879,7 @@
    ]
   },
   {
-   "number": "503",
+   "number": "583",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -3931,10 +3931,7 @@
      "arr": "15:44",
      "dep": null
     }
-   ],
-   "delayMin": 21,
-   "status": "delayed",
-   "code": "583"
+   ]
   },
   {
    "number": "670",
@@ -4065,7 +4062,7 @@
    ]
   },
   {
-   "number": "116",
+   "number": "616",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -4147,13 +4144,10 @@
      "arr": "16:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "616"
+   ]
   },
   {
-   "number": "610",
+   "number": "5917",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -4271,10 +4265,7 @@
      "arr": "16:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5917"
+   ]
   },
   {
    "number": "724",
@@ -4579,7 +4570,7 @@
    ]
   },
   {
-   "number": "118",
+   "number": "5892",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -4661,13 +4652,10 @@
      "arr": "17:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5892"
+   ]
   },
   {
-   "number": "612",
+   "number": "618",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -4797,10 +4785,7 @@
      "arr": "17:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "618"
+   ]
   },
   {
    "number": "719",
@@ -4982,7 +4967,7 @@
    ]
   },
   {
-   "number": "24",
+   "number": "697",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -5058,10 +5043,7 @@
      "arr": "13:17",
      "dep": null
     }
-   ],
-   "delayMin": 10,
-   "status": "delayed",
-   "code": "697"
+   ]
   },
   {
    "number": "4312",
@@ -5095,7 +5077,7 @@
    ]
   },
   {
-   "number": "902",
+   "number": "1167",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -5153,13 +5135,10 @@
      "arr": "14:01",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "1167"
+   ]
   },
   {
-   "number": "151",
+   "number": "546",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -5199,13 +5178,10 @@
      "arr": "14:43",
      "dep": null
     }
-   ],
-   "delayMin": 14,
-   "status": "delayed",
-   "code": "546"
+   ]
   },
   {
-   "number": "614",
+   "number": "620",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -5250,6 +5226,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "14:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "14:47"
     },
     {
      "oncf": "229",
@@ -5323,13 +5305,10 @@
      "arr": "18:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "620"
+   ]
   },
   {
-   "number": "204",
+   "number": "4302",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -5411,13 +5390,10 @@
      "arr": "22:41",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "4302"
+   ]
   },
   {
-   "number": "120",
+   "number": "4416",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -5505,13 +5481,10 @@
      "arr": "18:37",
      "dep": null
     }
-   ],
-   "delayMin": 22,
-   "status": "delayed",
-   "code": "4416"
+   ]
   },
   {
-   "number": "303",
+   "number": "4316",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -5617,10 +5590,7 @@
      "arr": "22:23",
      "dep": null
     }
-   ],
-   "delayMin": 14,
-   "status": "delayed",
-   "code": "4316"
+   ]
   },
   {
    "number": "715",
@@ -5673,7 +5643,7 @@
    ]
   },
   {
-   "number": "1025",
+   "number": "6022",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -5695,13 +5665,10 @@
      "arr": "14:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "6022"
+   ]
   },
   {
-   "number": "23",
+   "number": "680",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -5777,13 +5744,10 @@
      "arr": "13:53",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "680"
+   ]
   },
   {
-   "number": "658",
+   "number": "738",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -5829,10 +5793,7 @@
      "arr": "13:28",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "738"
+   ]
   },
   {
    "number": "567",
@@ -5885,7 +5846,7 @@
    ]
   },
   {
-   "number": "28",
+   "number": "701",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -5961,13 +5922,10 @@
      "arr": "14:16",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "701"
+   ]
   },
   {
-   "number": "808",
+   "number": "619",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6013,13 +5971,10 @@
      "arr": "14:10",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "619"
+   ]
   },
   {
-   "number": "25",
+   "number": "698",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6083,13 +6038,10 @@
      "arr": "14:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "698"
+   ]
   },
   {
-   "number": "182",
+   "number": "793",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6129,13 +6081,10 @@
      "arr": "16:01",
      "dep": null
     }
-   ],
-   "delayMin": 6,
-   "status": "delayed",
-   "code": "793"
+   ]
   },
   {
-   "number": "616",
+   "number": "6035",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6180,6 +6129,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "15:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "15:47"
     },
     {
      "oncf": "229",
@@ -6253,13 +6208,10 @@
      "arr": "19:33",
      "dep": null
     }
-   ],
-   "delayMin": 6,
-   "status": "delayed",
-   "code": "6035"
+   ]
   },
   {
-   "number": "122",
+   "number": "628",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6341,13 +6293,10 @@
      "arr": "19:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "628"
+   ]
   },
   {
-   "number": "A19",
+   "number": "729",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -6375,13 +6324,10 @@
      "arr": "13:40",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "729"
+   ]
   },
   {
-   "number": "27",
+   "number": "700",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6457,13 +6403,10 @@
      "arr": "14:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "700"
+   ]
   },
   {
-   "number": "30",
+   "number": "692",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6539,13 +6482,10 @@
      "arr": "15:05",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "692"
+   ]
   },
   {
-   "number": "A20",
+   "number": "737",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6567,13 +6507,10 @@
      "arr": "13:36",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "737"
+   ]
   },
   {
-   "number": "809",
+   "number": "4305",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6601,13 +6538,10 @@
      "arr": "14:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "4305"
+   ]
   },
   {
-   "number": "32",
+   "number": "651",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6671,13 +6605,10 @@
      "arr": "15:16",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "651"
+   ]
   },
   {
-   "number": "29",
+   "number": "702",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -6692,6 +6623,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "13:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "13:54"
     },
     {
      "oncf": "227",
@@ -6735,13 +6672,10 @@
      "arr": "15:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "702"
+   ]
   },
   {
-   "number": "618",
+   "number": "615",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6786,6 +6720,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "16:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "16:47"
     },
     {
      "oncf": "229",
@@ -6853,13 +6793,10 @@
      "arr": "20:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "615"
+   ]
   },
   {
-   "number": "124",
+   "number": "4414",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -6947,13 +6884,10 @@
      "arr": "20:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "4414"
+   ]
   },
   {
-   "number": "206",
+   "number": "554",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7041,13 +6975,10 @@
      "arr": "21:57",
      "dep": null
     }
-   ],
-   "delayMin": 14,
-   "status": "delayed",
-   "code": "554"
+   ]
   },
   {
-   "number": "A21",
+   "number": "741",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -7075,13 +7006,10 @@
      "arr": "14:40",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "741"
+   ]
   },
   {
-   "number": "2033",
+   "number": "5905",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -7097,13 +7025,10 @@
      "arr": "14:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5905"
+   ]
   },
   {
-   "number": "1033",
+   "number": "6020",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -7125,13 +7050,10 @@
      "arr": "16:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "6020"
+   ]
   },
   {
-   "number": "31",
+   "number": "647",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7146,6 +7068,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "14:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "14:25"
     },
     {
      "oncf": "221",
@@ -7201,13 +7129,10 @@
      "arr": "15:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "647"
+   ]
   },
   {
-   "number": "660",
+   "number": "757",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7253,13 +7178,10 @@
      "arr": "15:28",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "757"
+   ]
   },
   {
-   "number": "34",
+   "number": "683",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7335,10 +7257,7 @@
      "arr": "16:04",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "683"
+   ]
   },
   {
    "number": "742",
@@ -7366,7 +7285,7 @@
    ]
   },
   {
-   "number": "36",
+   "number": "709",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7419,12 +7338,6 @@
      "dep": "15:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "15:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -7442,13 +7355,10 @@
      "arr": "16:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "709"
+   ]
   },
   {
-   "number": "810",
+   "number": "621",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7494,13 +7404,10 @@
      "arr": "16:12",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "621"
+   ]
   },
   {
-   "number": "33",
+   "number": "710",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7515,6 +7422,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "14:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "14:54"
     },
     {
      "oncf": "227",
@@ -7558,13 +7471,10 @@
      "arr": "16:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "710"
+   ]
   },
   {
-   "number": "126",
+   "number": "5893",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7646,13 +7556,10 @@
      "arr": "21:37",
      "dep": null
     }
-   ],
-   "delayMin": 24,
-   "status": "delayed",
-   "code": "5893"
+   ]
   },
   {
-   "number": "620",
+   "number": "655",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7697,6 +7604,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "17:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "17:47"
     },
     {
      "oncf": "229",
@@ -7770,13 +7683,10 @@
      "arr": "21:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "655"
+   ]
   },
   {
-   "number": "153",
+   "number": "540",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7816,13 +7726,10 @@
      "arr": "17:53",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "540"
+   ]
   },
   {
-   "number": "305",
+   "number": "776",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -7892,10 +7799,7 @@
      "arr": "19:02",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "776"
+   ]
   },
   {
    "number": "746",
@@ -7929,7 +7833,7 @@
    ]
   },
   {
-   "number": "2037",
+   "number": "5906",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -7945,10 +7849,7 @@
      "arr": "15:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5906"
+   ]
   },
   {
    "number": "5887",
@@ -7976,7 +7877,7 @@
    ]
   },
   {
-   "number": "35",
+   "number": "712",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -7991,6 +7892,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "15:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "15:25"
     },
     {
      "oncf": "221",
@@ -8046,13 +7953,10 @@
      "arr": "16:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "712"
+   ]
   },
   {
-   "number": "704",
+   "number": "6990",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -8074,10 +7978,7 @@
      "arr": "16:59",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "6990"
+   ]
   },
   {
    "number": "687",
@@ -8131,12 +8032,6 @@
      "station": "Skhirat",
      "arr": null,
      "dep": "16:08"
-    },
-    {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "16:17"
     },
     {
      "oncf": "217",
@@ -8237,12 +8132,6 @@
      "dep": "16:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "16:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -8263,7 +8152,7 @@
    ]
   },
   {
-   "number": "37",
+   "number": "684",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -8278,6 +8167,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "15:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "15:54"
     },
     {
      "oncf": "227",
@@ -8321,13 +8216,10 @@
      "arr": "17:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "684"
+   ]
   },
   {
-   "number": "622",
+   "number": "5918",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -8372,6 +8264,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "18:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "18:47"
     },
     {
      "oncf": "229",
@@ -8439,13 +8337,10 @@
      "arr": "22:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5918"
+   ]
   },
   {
-   "number": "128",
+   "number": "632",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -8539,10 +8434,7 @@
      "arr": "22:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "632"
+   ]
   },
   {
    "number": "744",
@@ -8576,7 +8468,7 @@
    ]
   },
   {
-   "number": "2041",
+   "number": "5907",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -8592,10 +8484,7 @@
      "arr": "16:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5907"
+   ]
   },
   {
    "number": "5888",
@@ -8623,7 +8512,7 @@
    ]
   },
   {
-   "number": "39",
+   "number": "682",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -8638,6 +8527,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "16:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "16:25"
     },
     {
      "oncf": "221",
@@ -8693,13 +8588,10 @@
      "arr": "17:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "682"
+   ]
   },
   {
-   "number": "662",
+   "number": "752",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -8745,10 +8637,7 @@
      "arr": "17:28",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "752"
+   ]
   },
   {
    "number": "675",
@@ -8802,12 +8691,6 @@
      "station": "Skhirat",
      "arr": null,
      "dep": "17:08"
-    },
-    {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "17:17"
     },
     {
      "oncf": "217",
@@ -8908,12 +8791,6 @@
      "dep": "17:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "17:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -8965,7 +8842,7 @@
    ]
   },
   {
-   "number": "812",
+   "number": "624",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -9011,10 +8888,7 @@
      "arr": "18:12",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "624"
+   ]
   },
   {
    "number": "674",
@@ -9032,6 +8906,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "16:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "16:54"
     },
     {
      "oncf": "227",
@@ -9078,7 +8958,7 @@
    ]
   },
   {
-   "number": "130",
+   "number": "657",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9166,13 +9046,10 @@
      "arr": "23:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "657"
+   ]
   },
   {
-   "number": "624",
+   "number": "6039",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9217,6 +9094,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "19:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "19:47"
     },
     {
      "oncf": "229",
@@ -9284,13 +9167,10 @@
      "arr": "23:33",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "6039"
+   ]
   },
   {
-   "number": "355",
+   "number": "1368",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9312,10 +9192,7 @@
      "arr": "20:15",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "1368"
+   ]
   },
   {
    "number": "750",
@@ -9349,7 +9226,7 @@
    ]
   },
   {
-   "number": "2045",
+   "number": "5908",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -9365,10 +9242,7 @@
      "arr": "17:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5908"
+   ]
   },
   {
    "number": "5889",
@@ -9411,6 +9285,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "17:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "17:25"
     },
     {
      "oncf": "221",
@@ -9614,12 +9494,6 @@
      "dep": "18:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "18:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -9688,6 +9562,12 @@
      "dep": "17:43"
     },
     {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "17:54"
+    },
+    {
      "oncf": "227",
      "station": "Temara",
      "arr": null,
@@ -9732,7 +9612,7 @@
    ]
   },
   {
-   "number": "132",
+   "number": "586",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9814,13 +9694,10 @@
      "arr": "00:37",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "586"
+   ]
   },
   {
-   "number": "626",
+   "number": "5919",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -9865,6 +9742,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "20:37"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "20:47"
     },
     {
      "oncf": "229",
@@ -9920,10 +9803,7 @@
      "arr": "00:27",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5919"
+   ]
   },
   {
    "number": "748",
@@ -9957,7 +9837,7 @@
    ]
   },
   {
-   "number": "2049",
+   "number": "5909",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -9973,10 +9853,7 @@
      "arr": "18:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5909"
+   ]
   },
   {
    "number": "5890",
@@ -10019,6 +9896,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "18:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "18:25"
     },
     {
      "oncf": "221",
@@ -10229,12 +10112,6 @@
      "dep": "19:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "19:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -10286,7 +10163,7 @@
    ]
   },
   {
-   "number": "814",
+   "number": "623",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10332,10 +10209,7 @@
      "arr": "20:10",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "623"
+   ]
   },
   {
    "number": "596",
@@ -10353,6 +10227,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "18:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "18:54"
     },
     {
      "oncf": "227",
@@ -10448,7 +10328,7 @@
    ]
   },
   {
-   "number": "155",
+   "number": "545",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10488,10 +10368,7 @@
      "arr": "22:05",
      "dep": null
     }
-   ],
-   "delayMin": 8,
-   "status": "delayed",
-   "code": "545"
+   ]
   },
   {
    "number": "756",
@@ -10525,7 +10402,7 @@
    ]
   },
   {
-   "number": "2053",
+   "number": "5928",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10541,13 +10418,10 @@
      "arr": "19:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5928"
+   ]
   },
   {
-   "number": "1053",
+   "number": "5878",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -10569,10 +10443,7 @@
      "arr": "21:17",
      "dep": null
     }
-   ],
-   "delayMin": 18,
-   "status": "delayed",
-   "code": "5878"
+   ]
   },
   {
    "number": "611",
@@ -10590,6 +10461,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "19:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "19:25"
     },
     {
      "oncf": "221",
@@ -10648,7 +10525,7 @@
    ]
   },
   {
-   "number": "905",
+   "number": "1169",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -10688,13 +10565,10 @@
      "arr": "22:16",
      "dep": null
     }
-   ],
-   "delayMin": 17,
-   "status": "delayed",
-   "code": "1169"
+   ]
   },
   {
-   "number": "54",
+   "number": "608",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10747,12 +10621,6 @@
      "dep": "20:08"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "20:17"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -10770,10 +10638,7 @@
      "arr": "21:02",
      "dep": null
     }
-   ],
-   "delayMin": 5,
-   "status": "delayed",
-   "code": "608"
+   ]
   },
   {
    "number": "718",
@@ -10801,7 +10666,7 @@
    ]
   },
   {
-   "number": "307",
+   "number": "794",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -10859,13 +10724,10 @@
      "arr": "23:55",
      "dep": null
     }
-   ],
-   "delayMin": 16,
-   "status": "delayed",
-   "code": "794"
+   ]
   },
   {
-   "number": "56",
+   "number": "588",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -10929,10 +10791,7 @@
      "arr": "21:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "588"
+   ]
   },
   {
    "number": "4299",
@@ -10991,7 +10850,7 @@
    ]
   },
   {
-   "number": "816",
+   "number": "625",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11037,13 +10896,10 @@
      "arr": "21:12",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "625"
+   ]
   },
   {
-   "number": "904",
+   "number": "1166",
    "product": "Al Atlas (regional)",
    "type": "regional",
    "stops": [
@@ -11101,10 +10957,7 @@
      "arr": "22:01",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "1166"
+   ]
   },
   {
    "number": "720",
@@ -11138,7 +10991,7 @@
    ]
   },
   {
-   "number": "55",
+   "number": "594",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11153,6 +11006,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "20:14"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "20:25"
     },
     {
      "oncf": "221",
@@ -11208,13 +11067,10 @@
      "arr": "21:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "594"
+   ]
   },
   {
-   "number": "MT",
+   "number": "549",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
@@ -11261,6 +11117,12 @@
      "dep": "23:01"
     },
     {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "23:15"
+    },
+    {
      "oncf": "229",
      "station": "Rabat Agdal",
      "arr": null,
@@ -11272,13 +11134,10 @@
      "arr": "00:39",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "549"
+   ]
   },
   {
-   "number": "666",
+   "number": "5922",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11324,10 +11183,7 @@
      "arr": "21:28",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5922"
+   ]
   },
   {
    "number": "6722",
@@ -11361,7 +11217,7 @@
    ]
   },
   {
-   "number": "A34",
+   "number": "714",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11383,13 +11239,10 @@
      "arr": "20:36",
      "dep": null
     }
-   ],
-   "delayMin": 6,
-   "status": "delayed",
-   "code": "714"
+   ]
   },
   {
-   "number": "60",
+   "number": "598",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11442,12 +11295,6 @@
      "dep": "21:22"
     },
     {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "21:32"
-    },
-    {
      "oncf": "217",
      "station": "Mohammedia",
      "arr": null,
@@ -11465,13 +11312,10 @@
      "arr": "22:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "598"
+   ]
   },
   {
-   "number": "818",
+   "number": "5923",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11517,13 +11361,10 @@
      "arr": "22:12",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5923"
+   ]
   },
   {
-   "number": "57",
+   "number": "591",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11538,6 +11379,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "20:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "20:54"
     },
     {
      "oncf": "227",
@@ -11581,13 +11428,10 @@
      "arr": "22:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "591"
+   ]
   },
   {
-   "number": "A35",
+   "number": "716",
    "product": "Navette aeroport",
    "type": "airport",
    "stops": [
@@ -11615,13 +11459,10 @@
      "arr": "21:40",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "716"
+   ]
   },
   {
-   "number": "2061",
+   "number": "5929",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -11637,13 +11478,10 @@
      "arr": "21:50",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5929"
+   ]
   },
   {
-   "number": "1061",
+   "number": "5891",
    "product": "Al Boraq",
    "type": "boraq",
    "stops": [
@@ -11665,13 +11503,10 @@
      "arr": "23:17",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5891"
+   ]
   },
   {
-   "number": "62",
+   "number": "593",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11729,13 +11564,10 @@
      "arr": "23:01",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "593"
+   ]
   },
   {
-   "number": "A36",
+   "number": "726",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11757,13 +11589,10 @@
      "arr": "21:36",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "726"
+   ]
   },
   {
-   "number": "819",
+   "number": "6721",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11791,13 +11620,10 @@
      "arr": "22:54",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "6721"
+   ]
   },
   {
-   "number": "59",
+   "number": "587",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11812,6 +11638,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "21:43"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "21:54"
     },
     {
      "oncf": "228",
@@ -11849,10 +11681,7 @@
      "arr": "23:14",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "587"
+   ]
   },
   {
    "number": "725",
@@ -11886,7 +11715,7 @@
    ]
   },
   {
-   "number": "61",
+   "number": "5916",
    "product": "TNR",
    "type": "tnr",
    "stops": [
@@ -11901,6 +11730,12 @@
      "station": "Ain Sebaa",
      "arr": null,
      "dep": "22:13"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "22:24"
     },
     {
      "oncf": "228",
@@ -11938,10 +11773,7 @@
      "arr": "23:43",
      "dep": null
     }
-   ],
-   "delayMin": 0,
-   "status": "on time",
-   "code": "5916"
+   ]
   },
   {
    "number": "721",
@@ -12006,6 +11838,5 @@
     }
    ]
   }
- ],
- "delaysCheckedAt": "2026-11-10T20:24:34+00:00"
+ ]
 }
