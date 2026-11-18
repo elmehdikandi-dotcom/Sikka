@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-07T03:29:25+00:00",
- "serviceDate": "2026-11-07",
+ "generatedAt": "2026-11-18T04:50:57+00:00",
+ "serviceDate": "2026-11-18",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
@@ -10,18 +10,6 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": null,
-     "dep": "03:20"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "03:55"
-    },
     {
      "oncf": "350",
      "station": "Sidi Kacem",
@@ -68,61 +56,12 @@
      "oncf": "441",
      "station": "Guercif",
      "arr": null,
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "557",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
+     "dep": "23:28"
+    },
     {
      "oncf": "380",
      "station": "Fes",
-     "arr": null,
-     "dep": "03:47"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "04:21"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "05:08"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "05:24"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "06:04",
-     "dep": null
-    },
-    {
-     "oncf": "490",
-     "station": "Oujda",
-     "arr": null,
-     "dep": "21:45"
-    },
-    {
-     "oncf": "459",
-     "station": "El Aioun",
-     "arr": null,
-     "dep": "22:49"
-    },
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
+     "arr": "02:20",
      "dep": null
     }
    ]
@@ -132,12 +71,6 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "431",
-     "station": "Taza",
-     "arr": null,
-     "dep": "03:59"
-    },
     {
      "oncf": "441",
      "station": "Guercif",
@@ -231,280 +164,50 @@
    ]
   },
   {
-   "number": "686",
+   "number": "557",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
     {
-     "oncf": "110",
-     "station": "Marrakech",
+     "oncf": "350",
+     "station": "Sidi Kacem",
      "arr": null,
-     "dep": "04:30"
-    },
-    {
-     "oncf": "120",
-     "station": "Benguerir",
-     "arr": null,
-     "dep": "05:20"
-    },
-    {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "06:23"
-    },
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "06:44"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "07:00"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": "07:13",
-     "dep": "07:14"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "07:24",
-     "dep": "07:28"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "07:37"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "07:47"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "08:26"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "08:33"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "08:41"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "08:45"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "09:05",
-     "dep": "09:08"
+     "dep": "05:08"
     },
     {
      "oncf": "264",
      "station": "Sidi Slimane",
      "arr": null,
-     "dep": "09:47"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": "10:03",
-     "dep": "10:05"
-    },
-    {
-     "oncf": "362",
-     "station": "Meknes Al Amir",
-     "arr": null,
-     "dep": "10:44"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "10:53"
-    },
-    {
-     "oncf": "367",
-     "station": "Ain Taoujdate",
-     "arr": null,
-     "dep": "11:16"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "11:33",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "4412",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": null,
-     "dep": "04:35"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "05:12"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "05:58"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "06:12"
+     "dep": "05:24"
     },
     {
      "oncf": "250",
      "station": "Kenitra",
-     "arr": "06:57",
+     "arr": "06:04",
      "dep": null
     },
     {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
+     "oncf": "490",
+     "station": "Oujda",
      "arr": null,
-     "dep": "08:43"
+     "dep": "21:45"
     },
     {
-     "oncf": "191",
-     "station": "Casa Oasis",
+     "oncf": "459",
+     "station": "El Aioun",
      "arr": null,
-     "dep": "08:54"
+     "dep": "22:49"
     },
     {
-     "oncf": "183",
-     "station": "Berrechid",
+     "oncf": "451",
+     "station": "Taourirt",
      "arr": null,
-     "dep": "09:23"
+     "dep": "23:39"
     },
     {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "09:49"
-    },
-    {
-     "oncf": "120",
-     "station": "Benguerir",
-     "arr": null,
-     "dep": "10:51"
-    },
-    {
-     "oncf": "110",
-     "station": "Marrakech",
-     "arr": "11:37",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "690",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": null,
-     "dep": "05:25"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "05:46"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "05:50"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "05:59"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "06:05"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "06:11"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "06:17"
-    },
-    {
-     "oncf": "223",
-     "station": "Skhirat",
-     "arr": null,
-     "dep": "06:26"
-    },
-    {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "06:35"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "06:50"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "07:04"
-    },
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": "07:18",
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "03:17",
      "dep": null
     }
    ]
@@ -739,6 +442,30 @@
      "dep": "05:45"
     },
     {
+     "oncf": "317",
+     "station": "Asilah",
+     "arr": null,
+     "dep": "06:22"
+    },
+    {
+     "oncf": "325",
+     "station": "Ksar El Kebir",
+     "arr": null,
+     "dep": "07:06"
+    },
+    {
+     "oncf": "337",
+     "station": "Souk El Arbaa",
+     "arr": null,
+     "dep": "07:39"
+    },
+    {
+     "oncf": "339",
+     "station": "Mechra Bel Ksiri",
+     "arr": null,
+     "dep": "07:51"
+    },
+    {
      "oncf": "259",
      "station": "Sidi Yahya El Gharb",
      "arr": null,
@@ -883,55 +610,6 @@
    ]
   },
   {
-   "number": "735",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "06:05"
-    },
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "06:26"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "06:42"
-    },
-    {
-     "oncf": "194",
-     "station": "Ennassim",
-     "arr": null,
-     "dep": "06:51"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "07:01"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "07:13",
-     "dep": "07:15"
-    },
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": "07:31",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5926",
    "product": "Al Atlas",
    "type": "atlas",
@@ -1054,85 +732,6 @@
      "oncf": "662",
      "station": "Beni Nsar",
      "arr": "16:37",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "1",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": null,
-     "dep": "06:12"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "06:26"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "06:37"
-    },
-    {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "06:50"
-    },
-    {
-     "oncf": "223",
-     "station": "Skhirat",
-     "arr": null,
-     "dep": "07:00"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "07:09"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "07:17"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "07:28"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "07:33"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "07:41"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "07:45"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "08:05",
      "dep": null
     }
    ]
@@ -1298,7 +897,7 @@
     {
      "oncf": "191",
      "station": "Casa Oasis",
-     "arr": "07:41",
+     "arr": null,
      "dep": "07:42"
     },
     {
@@ -2016,85 +1615,6 @@
    ]
   },
   {
-   "number": "694",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": null,
-     "dep": "07:07"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "07:28"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "07:32"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "07:41"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "07:47"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "07:53"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "07:59"
-    },
-    {
-     "oncf": "223",
-     "station": "Skhirat",
-     "arr": null,
-     "dep": "08:08"
-    },
-    {
-     "oncf": "221",
-     "station": "Bouznika",
-     "arr": null,
-     "dep": "08:17"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "08:32"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "08:48"
-    },
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": "09:05",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "766",
    "product": "TNR",
    "type": "tnr",
@@ -2243,104 +1763,6 @@
      "oncf": "206",
      "station": "Casa Port",
      "arr": "09:12",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "664",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "07:25"
-    },
-    {
-     "oncf": "365",
-     "station": "Sebaa Aioun",
-     "arr": null,
-     "dep": "07:36"
-    },
-    {
-     "oncf": "367",
-     "station": "Ain Taoujdate",
-     "arr": null,
-     "dep": "07:46"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "08:01",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "650",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": null,
-     "dep": "07:30"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "07:43"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "07:54"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "08:20"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "08:28"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "08:39"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "08:44"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "08:52"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "08:56"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "09:16",
      "dep": null
     }
    ]
@@ -3022,55 +2444,6 @@
    ]
   },
   {
-   "number": "730",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "08:10"
-    },
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "08:31"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "08:47"
-    },
-    {
-     "oncf": "194",
-     "station": "Ennassim",
-     "arr": null,
-     "dep": "08:56"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "09:06"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "09:18",
-     "dep": "09:20"
-    },
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": "09:36",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "723",
    "product": "TNR",
    "type": "tnr",
@@ -3084,7 +2457,7 @@
     {
      "oncf": "191",
      "station": "Casa Oasis",
-     "arr": "08:26",
+     "arr": null,
      "dep": "08:27"
     },
     {
@@ -3134,140 +2507,6 @@
      "oncf": "303",
      "station": "Tanger Ville",
      "arr": "11:38",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "644",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": null,
-     "dep": "08:30"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "08:43"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "08:54"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "09:20"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "09:28"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "09:39"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "09:44"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "09:52"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "09:56"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "10:17",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "669",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": null,
-     "dep": "08:30"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "08:51"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "08:55"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "09:04"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "09:10"
-    },
-    {
-     "oncf": "228",
-     "station": "Rabat Riad",
-     "arr": null,
-     "dep": "09:16"
-    },
-    {
-     "oncf": "227",
-     "station": "Temara",
-     "arr": null,
-     "dep": "09:22"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "09:48"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "10:03"
-    },
-    {
-     "oncf": "206",
-     "station": "Casa Port",
-     "arr": "10:18",
      "dep": null
     }
    ]
@@ -3474,37 +2713,6 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "15:37",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "672",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "08:35"
-    },
-    {
-     "oncf": "365",
-     "station": "Sebaa Aioun",
-     "arr": null,
-     "dep": "08:46"
-    },
-    {
-     "oncf": "367",
-     "station": "Ain Taoujdate",
-     "arr": null,
-     "dep": "08:56"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "09:11",
      "dep": null
     }
    ]
@@ -4578,6 +3786,30 @@
      "station": "Tanger Ville",
      "arr": null,
      "dep": "10:30"
+    },
+    {
+     "oncf": "317",
+     "station": "Asilah",
+     "arr": null,
+     "dep": "11:08"
+    },
+    {
+     "oncf": "325",
+     "station": "Ksar El Kebir",
+     "arr": null,
+     "dep": "12:11"
+    },
+    {
+     "oncf": "337",
+     "station": "Souk El Arbaa",
+     "arr": null,
+     "dep": "12:49"
+    },
+    {
+     "oncf": "339",
+     "station": "Mechra Bel Ksiri",
+     "arr": null,
+     "dep": "13:05"
     },
     {
      "oncf": "259",
@@ -9233,6 +8465,30 @@
      "station": "Tanger Ville",
      "arr": null,
      "dep": "16:45"
+    },
+    {
+     "oncf": "317",
+     "station": "Asilah",
+     "arr": null,
+     "dep": "17:28"
+    },
+    {
+     "oncf": "325",
+     "station": "Ksar El Kebir",
+     "arr": null,
+     "dep": "18:22"
+    },
+    {
+     "oncf": "337",
+     "station": "Souk El Arbaa",
+     "arr": null,
+     "dep": "18:57"
+    },
+    {
+     "oncf": "339",
+     "station": "Mechra Bel Ksiri",
+     "arr": null,
+     "dep": "19:09"
     },
     {
      "oncf": "259",
