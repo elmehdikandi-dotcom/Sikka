@@ -1,21 +1,70 @@
 {
- "generatedAt": "2026-11-20T04:45:47+00:00",
- "serviceDate": "2026-11-20",
+ "generatedAt": "2026-11-28T05:25:55+00:00",
+ "serviceDate": "2026-11-28",
  "source": "oncf-voyages.ma",
  "realtime": false,
  "example": false,
  "trains": [
   {
-   "number": "557",
+   "number": "797",
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
     {
-     "oncf": "363",
-     "station": "Meknes",
+     "oncf": "264",
+     "station": "Sidi Slimane",
      "arr": null,
-     "dep": "04:21"
+     "dep": "05:00"
     },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "05:39",
+     "dep": null
+    },
+    {
+     "oncf": "662",
+     "station": "Beni Nsar",
+     "arr": null,
+     "dep": "20:15"
+    },
+    {
+     "oncf": "664",
+     "station": "Nador Ville",
+     "arr": null,
+     "dep": "20:26"
+    },
+    {
+     "oncf": "666",
+     "station": "Nador Sud",
+     "arr": null,
+     "dep": "20:33"
+    },
+    {
+     "oncf": "451",
+     "station": "Taourirt",
+     "arr": "21:58",
+     "dep": null
+    },
+    {
+     "oncf": "441",
+     "station": "Guercif",
+     "arr": null,
+     "dep": "23:28"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "02:20",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "557",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
     {
      "oncf": "350",
      "station": "Sidi Kacem",
@@ -47,12 +96,6 @@
      "dep": "22:49"
     },
     {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "23:39"
-    },
-    {
      "oncf": "380",
      "station": "Fes",
      "arr": "03:17",
@@ -65,12 +108,6 @@
    "product": "Al Atlas",
    "type": "atlas",
    "stops": [
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": null,
-     "dep": "04:35"
-    },
     {
      "oncf": "363",
      "station": "Meknes",
@@ -129,164 +166,6 @@
      "oncf": "110",
      "station": "Marrakech",
      "arr": "11:37",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "797",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "04:44"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "05:00"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "05:39",
-     "dep": null
-    },
-    {
-     "oncf": "662",
-     "station": "Beni Nsar",
-     "arr": null,
-     "dep": "20:15"
-    },
-    {
-     "oncf": "664",
-     "station": "Nador Ville",
-     "arr": null,
-     "dep": "20:26"
-    },
-    {
-     "oncf": "666",
-     "station": "Nador Sud",
-     "arr": null,
-     "dep": "20:33"
-    },
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": "21:58",
-     "dep": "22:31"
-    },
-    {
-     "oncf": "441",
-     "station": "Guercif",
-     "arr": null,
-     "dep": "23:28"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "02:20",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "579",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "441",
-     "station": "Guercif",
-     "arr": null,
-     "dep": "04:53"
-    },
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "05:34"
-    },
-    {
-     "oncf": "459",
-     "station": "El Aioun",
-     "arr": null,
-     "dep": "06:25"
-    },
-    {
-     "oncf": "490",
-     "station": "Oujda",
-     "arr": "07:11",
-     "dep": null
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "21:07"
-    },
-    {
-     "oncf": "213",
-     "station": "Ain Sebaa",
-     "arr": null,
-     "dep": "21:16"
-    },
-    {
-     "oncf": "217",
-     "station": "Mohammedia",
-     "arr": null,
-     "dep": "21:28"
-    },
-    {
-     "oncf": "229",
-     "station": "Rabat Agdal",
-     "arr": null,
-     "dep": "22:08"
-    },
-    {
-     "oncf": "231",
-     "station": "Rabat Ville",
-     "arr": null,
-     "dep": "22:14"
-    },
-    {
-     "oncf": "237",
-     "station": "Sale",
-     "arr": null,
-     "dep": "22:23"
-    },
-    {
-     "oncf": "238",
-     "station": "Sale Tabriquet",
-     "arr": null,
-     "dep": "22:27"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "22:48",
-     "dep": "22:51"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "23:30"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "23:46"
-    },
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": "01:07",
      "dep": null
     }
    ]
@@ -619,6 +498,97 @@
    ]
   },
   {
+   "number": "579",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "451",
+     "station": "Taourirt",
+     "arr": null,
+     "dep": "05:34"
+    },
+    {
+     "oncf": "459",
+     "station": "El Aioun",
+     "arr": null,
+     "dep": "06:25"
+    },
+    {
+     "oncf": "490",
+     "station": "Oujda",
+     "arr": "07:11",
+     "dep": null
+    },
+    {
+     "oncf": "200",
+     "station": "Casa Voyageurs",
+     "arr": null,
+     "dep": "21:07"
+    },
+    {
+     "oncf": "213",
+     "station": "Ain Sebaa",
+     "arr": null,
+     "dep": "21:16"
+    },
+    {
+     "oncf": "217",
+     "station": "Mohammedia",
+     "arr": null,
+     "dep": "21:28"
+    },
+    {
+     "oncf": "229",
+     "station": "Rabat Agdal",
+     "arr": null,
+     "dep": "22:08"
+    },
+    {
+     "oncf": "231",
+     "station": "Rabat Ville",
+     "arr": null,
+     "dep": "22:14"
+    },
+    {
+     "oncf": "237",
+     "station": "Sale",
+     "arr": null,
+     "dep": "22:23"
+    },
+    {
+     "oncf": "238",
+     "station": "Sale Tabriquet",
+     "arr": null,
+     "dep": "22:27"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "22:48",
+     "dep": "22:51"
+    },
+    {
+     "oncf": "264",
+     "station": "Sidi Slimane",
+     "arr": null,
+     "dep": "23:30"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": null,
+     "dep": "23:46"
+    },
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": "01:07",
+     "dep": null
+    }
+   ]
+  },
+  {
    "number": "4411",
    "product": "Al Atlas",
    "type": "atlas",
@@ -719,30 +689,6 @@
      "station": "Tanger Ville",
      "arr": null,
      "dep": "05:45"
-    },
-    {
-     "oncf": "317",
-     "station": "Asilah",
-     "arr": null,
-     "dep": "06:22"
-    },
-    {
-     "oncf": "325",
-     "station": "Ksar El Kebir",
-     "arr": null,
-     "dep": "07:06"
-    },
-    {
-     "oncf": "337",
-     "station": "Souk El Arbaa",
-     "arr": null,
-     "dep": "07:39"
-    },
-    {
-     "oncf": "339",
-     "station": "Mechra Bel Ksiri",
-     "arr": null,
-     "dep": "07:51"
     },
     {
      "oncf": "259",
@@ -2727,12 +2673,6 @@
      "dep": "08:44"
     },
     {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "09:36"
-    },
-    {
      "oncf": "441",
      "station": "Guercif",
      "arr": null,
@@ -3935,7 +3875,7 @@
      "oncf": "451",
      "station": "Taourirt",
      "arr": "11:08",
-     "dep": "11:39"
+     "dep": null
     },
     {
      "oncf": "441",
@@ -4092,91 +4032,6 @@
    ]
   },
   {
-   "number": "616",
-   "product": "Al Atlas",
-   "type": "atlas",
-   "stops": [
-    {
-     "oncf": "380",
-     "station": "Fes",
-     "arr": null,
-     "dep": "09:35"
-    },
-    {
-     "oncf": "367",
-     "station": "Ain Taoujdate",
-     "arr": null,
-     "dep": "09:48"
-    },
-    {
-     "oncf": "363",
-     "station": "Meknes",
-     "arr": null,
-     "dep": "10:13"
-    },
-    {
-     "oncf": "362",
-     "station": "Meknes Al Amir",
-     "arr": null,
-     "dep": "10:18"
-    },
-    {
-     "oncf": "350",
-     "station": "Sidi Kacem",
-     "arr": null,
-     "dep": "11:00"
-    },
-    {
-     "oncf": "264",
-     "station": "Sidi Slimane",
-     "arr": null,
-     "dep": "11:13"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "11:57",
-     "dep": null
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "13:43"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "13:54"
-    },
-    {
-     "oncf": "183",
-     "station": "Berrechid",
-     "arr": null,
-     "dep": "14:23"
-    },
-    {
-     "oncf": "139",
-     "station": "Settat",
-     "arr": null,
-     "dep": "14:49"
-    },
-    {
-     "oncf": "120",
-     "station": "Benguerir",
-     "arr": null,
-     "dep": "15:51"
-    },
-    {
-     "oncf": "110",
-     "station": "Marrakech",
-     "arr": "16:37",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5917",
    "product": "Al Atlas",
    "type": "atlas",
@@ -4274,7 +4129,7 @@
     {
      "oncf": "350",
      "station": "Sidi Kacem",
-     "arr": null,
+     "arr": "15:03",
      "dep": "15:05"
     },
     {
@@ -4293,6 +4148,91 @@
      "oncf": "380",
      "station": "Fes",
      "arr": "16:33",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "616",
+   "product": "Al Atlas",
+   "type": "atlas",
+   "stops": [
+    {
+     "oncf": "380",
+     "station": "Fes",
+     "arr": null,
+     "dep": "09:35"
+    },
+    {
+     "oncf": "367",
+     "station": "Ain Taoujdate",
+     "arr": null,
+     "dep": "09:48"
+    },
+    {
+     "oncf": "363",
+     "station": "Meknes",
+     "arr": null,
+     "dep": "10:13"
+    },
+    {
+     "oncf": "362",
+     "station": "Meknes Al Amir",
+     "arr": null,
+     "dep": "10:18"
+    },
+    {
+     "oncf": "350",
+     "station": "Sidi Kacem",
+     "arr": null,
+     "dep": "11:00"
+    },
+    {
+     "oncf": "264",
+     "station": "Sidi Slimane",
+     "arr": null,
+     "dep": "11:13"
+    },
+    {
+     "oncf": "250",
+     "station": "Kenitra",
+     "arr": "11:57",
+     "dep": null
+    },
+    {
+     "oncf": "200",
+     "station": "Casa Voyageurs",
+     "arr": null,
+     "dep": "13:43"
+    },
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "13:54"
+    },
+    {
+     "oncf": "183",
+     "station": "Berrechid",
+     "arr": null,
+     "dep": "14:23"
+    },
+    {
+     "oncf": "139",
+     "station": "Settat",
+     "arr": null,
+     "dep": "14:49"
+    },
+    {
+     "oncf": "120",
+     "station": "Benguerir",
+     "arr": null,
+     "dep": "15:51"
+    },
+    {
+     "oncf": "110",
+     "station": "Marrakech",
+     "arr": "16:37",
      "dep": null
     }
    ]
@@ -5377,12 +5317,6 @@
      "station": "El Aioun",
      "arr": null,
      "dep": "12:30"
-    },
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "13:30"
     },
     {
      "oncf": "441",
@@ -6956,12 +6890,6 @@
      "station": "El Aioun",
      "arr": null,
      "dep": "14:23"
-    },
-    {
-     "oncf": "451",
-     "station": "Taourirt",
-     "arr": null,
-     "dep": "15:20"
     },
     {
      "oncf": "441",
@@ -9265,30 +9193,6 @@
      "dep": "16:45"
     },
     {
-     "oncf": "317",
-     "station": "Asilah",
-     "arr": null,
-     "dep": "17:28"
-    },
-    {
-     "oncf": "325",
-     "station": "Ksar El Kebir",
-     "arr": null,
-     "dep": "18:22"
-    },
-    {
-     "oncf": "337",
-     "station": "Souk El Arbaa",
-     "arr": null,
-     "dep": "18:57"
-    },
-    {
-     "oncf": "339",
-     "station": "Mechra Bel Ksiri",
-     "arr": null,
-     "dep": "19:09"
-    },
-    {
      "oncf": "259",
      "station": "Sidi Yahya El Gharb",
      "arr": null,
@@ -9298,37 +9202,6 @@
      "oncf": "250",
      "station": "Kenitra",
      "arr": "20:15",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "750",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "16:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "17:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "17:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "17:40",
      "dep": null
     }
    ]
@@ -9519,6 +9392,31 @@
      "oncf": "206",
      "station": "Casa Port",
      "arr": "19:05",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "750",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "17:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "17:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "17:40",
      "dep": null
     }
    ]
@@ -9920,37 +9818,6 @@
    ]
   },
   {
-   "number": "748",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "17:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "18:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "18:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "18:40",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5909",
    "product": "Al Boraq",
    "type": "boraq",
@@ -10143,6 +10010,31 @@
      "oncf": "57",
      "station": "Safi",
      "arr": "20:06",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "748",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "18:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "18:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "18:40",
      "dep": null
     }
    ]
@@ -10491,37 +10383,6 @@
    ]
   },
   {
-   "number": "756",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "18:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "19:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "19:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "19:40",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5928",
    "product": "Al Boraq",
    "type": "boraq",
@@ -10762,6 +10623,31 @@
      "oncf": "206",
      "station": "Casa Port",
      "arr": "21:02",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "756",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "19:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "19:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "19:40",
      "dep": null
     }
    ]
@@ -11086,81 +10972,6 @@
    ]
   },
   {
-   "number": "720",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "19:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "20:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "20:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "20:40",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "6019",
-   "product": "Al Boraq",
-   "type": "boraq",
-   "stops": [
-    {
-     "oncf": "303",
-     "station": "Tanger Ville",
-     "arr": null,
-     "dep": "20:00"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "20:50",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "6018",
-   "product": "Al Boraq",
-   "type": "boraq",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "20:00"
-    },
-    {
-     "oncf": "250",
-     "station": "Kenitra",
-     "arr": "21:25",
-     "dep": "21:28"
-    },
-    {
-     "oncf": "303",
-     "station": "Tanger Ville",
-     "arr": "22:17",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "594",
    "product": "TNR",
    "type": "tnr",
@@ -11387,6 +11198,31 @@
    ]
   },
   {
+   "number": "720",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "20:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "20:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "20:40",
+     "dep": null
+    }
+   ]
+  },
+  {
    "number": "714",
    "product": "TNR",
    "type": "tnr",
@@ -11607,37 +11443,6 @@
    ]
   },
   {
-   "number": "716",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "20:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "21:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "21:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "21:40",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5929",
    "product": "Al Boraq",
    "type": "boraq",
@@ -11738,6 +11543,31 @@
      "oncf": "206",
      "station": "Casa Port",
      "arr": "23:01",
+     "dep": null
+    }
+   ]
+  },
+  {
+   "number": "716",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "21:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "21:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "21:40",
      "dep": null
     }
    ]
@@ -11860,37 +11690,6 @@
    ]
   },
   {
-   "number": "725",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "21:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "22:08"
-    },
-    {
-     "oncf": "187",
-     "station": "Bouskoura",
-     "arr": null,
-     "dep": "22:23"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "22:40",
-     "dep": null
-    }
-   ]
-  },
-  {
    "number": "5916",
    "product": "TNR",
    "type": "tnr",
@@ -11952,6 +11751,31 @@
    ]
   },
   {
+   "number": "725",
+   "product": "Navette aeroport",
+   "type": "airport",
+   "stops": [
+    {
+     "oncf": "191",
+     "station": "Casa Oasis",
+     "arr": null,
+     "dep": "22:08"
+    },
+    {
+     "oncf": "187",
+     "station": "Bouskoura",
+     "arr": null,
+     "dep": "22:23"
+    },
+    {
+     "oncf": "190",
+     "station": "Aeroport Mohammed V",
+     "arr": "22:40",
+     "dep": null
+    }
+   ]
+  },
+  {
    "number": "721",
    "product": "TNR",
    "type": "tnr",
@@ -11966,50 +11790,6 @@
      "oncf": "200",
      "station": "Casa Voyageurs",
      "arr": "22:36",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5924",
-   "product": "Navette aeroport",
-   "type": "airport",
-   "stops": [
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": null,
-     "dep": "22:57"
-    },
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "23:08"
-    },
-    {
-     "oncf": "190",
-     "station": "Aeroport Mohammed V",
-     "arr": "23:40",
-     "dep": null
-    }
-   ]
-  },
-  {
-   "number": "5925",
-   "product": "TNR",
-   "type": "tnr",
-   "stops": [
-    {
-     "oncf": "191",
-     "station": "Casa Oasis",
-     "arr": null,
-     "dep": "23:27"
-    },
-    {
-     "oncf": "200",
-     "station": "Casa Voyageurs",
-     "arr": "23:36",
      "dep": null
     }
    ]
